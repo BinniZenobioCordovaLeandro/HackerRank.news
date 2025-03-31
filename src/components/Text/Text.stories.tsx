@@ -3,13 +3,14 @@ import {action} from "@storybook/addon-actions";
 import type {Meta, StoryObj} from "@storybook/react";
 import React from "react";
 import {View} from "react-native";
-import {Button} from "./Button";
+import {Text} from "./Text";
 
 const meta = {
-    title: "Button",
-    component: Button,
+    title: "Text",
+    component: Text,
     args: {
-        title: "Click Me",
+        children: "Hello World",
+        type: "default",
     },
     decorators: [
         (Story) => (
@@ -18,7 +19,7 @@ const meta = {
             </View>
         ),
     ],
-} satisfies Meta<typeof Button>;
+} satisfies Meta<typeof Text>;
 
 export default meta;
 

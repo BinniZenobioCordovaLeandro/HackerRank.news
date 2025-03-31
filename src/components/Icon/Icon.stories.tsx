@@ -1,24 +1,33 @@
+import {theme} from "@/theme/colors";
+import {FONT_SIZE} from "@/theme/fonts";
 import {SPACING} from "@/theme/spacing";
 import {action} from "@storybook/addon-actions";
 import type {Meta, StoryObj} from "@storybook/react";
 import React from "react";
 import {View} from "react-native";
-import {Button} from "./Button";
+import {Icon} from "./Icon";
 
 const meta = {
-    title: "Button",
-    component: Button,
+    title: "Icon",
+    component: Icon,
     args: {
-        title: "Click Me",
+        name: "home",
+        size: FONT_SIZE[3],
+        color: theme().text,
     },
     decorators: [
         (Story) => (
-            <View style={{padding: SPACING[4]}}>
+            <View
+                style={{
+                    padding: SPACING[4],
+                    backgroundColor: theme().background,
+                }}
+            >
                 <Story />
             </View>
         ),
     ],
-} satisfies Meta<typeof Button>;
+} satisfies Meta<typeof Icon>;
 
 export default meta;
 

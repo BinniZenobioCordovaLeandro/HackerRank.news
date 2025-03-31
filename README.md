@@ -114,18 +114,32 @@ https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree
 
 ### TRACK TASKS
 # Wed Mar 26
-[*] Initial Project Setup with EXPO ReactNative
-[*] Add Storybook to documentate the UI
-[*] Add Jest to run UnitTests
-[*] Add Biome to format the codebase
-[*] Add Husky, to run precommit tasks
-[*] Add commitlint to Validate commit messages
-[*] create SRC directory
-[*] Config PNPM with Expo
+- [*] Initial Project Setup with EXPO ReactNative
+- [*] Add Storybook to documentate the UI
+- [*] Add Jest to run UnitTests
+- [*] Add Biome to format the codebase
+- [*] Add Husky, to run precommit tasks
+- [*] Add commitlint to Validate commit messages
+- [*] create SRC directory
+- [*] Config PNPM with Expo
 
 # Thu Mar 27
-[*] Init EAS project
-[*] Add EAS task to CI/CD using expo-github-action
-[*] Add Biome task to check code in PR's
-[*] Add Unit Tests task
-[*] Add Expo Router to manage navigation in the app
+- [*] Init EAS project
+- [*] Add EAS task to CI/CD using expo-github-action
+- [*] Add Biome task to check code in PR's
+- [*] Add Unit Tests task
+- [*] Add Expo Router to manage navigation in the app
+
+-- Initial Setup finished
+
+# Sat Mar 29, Core Functionality in CHALLENGE.md 
+- [*] Add api to fetch articles
+- [*] Order by article.created_at_i when fetching articles
+- [*] Add cache to http that invalidates when online
+- [*] Add flashlist to ensure performance in long lists
+- [*] Add Swipeable component to show Articles data in the list and interact with the Article
+- [*] Add RefreshControl gesture to Article List
+- [*] Add WebView to open the article
+- [*] Add local storage to save deleted articles
+- [*] Filter deleted articles when fetching, using localStorage
+- [*] Add unit test components, AppBar, Button, Icon, Text, Swipeable.

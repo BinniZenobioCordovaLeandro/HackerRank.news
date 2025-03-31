@@ -1,24 +1,22 @@
-import {SPACING} from "@/theme/spacing";
-import {action} from "@storybook/addon-actions";
 import type {Meta, StoryObj} from "@storybook/react";
 import React from "react";
 import {View} from "react-native";
-import {Button} from "./Button";
+import AppBar from "./AppBar";
 
 const meta = {
-    title: "Button",
-    component: Button,
+    title: "AppBar",
+    component: AppBar,
     args: {
-        title: "Click Me",
+        title: "AppBar",
     },
     decorators: [
         (Story) => (
-            <View style={{padding: SPACING[4]}}>
+            <View style={{padding: 16}}>
                 <Story />
             </View>
         ),
     ],
-} satisfies Meta<typeof Button>;
+} satisfies Meta<typeof AppBar>;
 
 export default meta;
 
@@ -26,6 +24,6 @@ type Story = StoryObj<typeof meta>;
 
 export const Basic: Story = {
     args: {
-        onPress: action("onPress"),
+        title: "AppBar",
     },
 };

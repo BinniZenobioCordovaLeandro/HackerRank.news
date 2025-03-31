@@ -3,13 +3,14 @@ import {action} from "@storybook/addon-actions";
 import type {Meta, StoryObj} from "@storybook/react";
 import React from "react";
 import {View} from "react-native";
-import {Button} from "./Button";
+import {Swipeable} from "./Swipeable";
 
 const meta = {
-    title: "Button",
-    component: Button,
+    title: "Swipeable",
+    component: Swipeable,
     args: {
-        title: "Click Me",
+        title: "Test Title",
+        caption: "Test Caption",
     },
     decorators: [
         (Story) => (
@@ -18,7 +19,7 @@ const meta = {
             </View>
         ),
     ],
-} satisfies Meta<typeof Button>;
+} satisfies Meta<typeof Swipeable>;
 
 export default meta;
 
@@ -27,5 +28,6 @@ type Story = StoryObj<typeof meta>;
 export const Basic: Story = {
     args: {
         onPress: action("onPress"),
+        onDismiss: action("onDismiss"),
     },
 };
