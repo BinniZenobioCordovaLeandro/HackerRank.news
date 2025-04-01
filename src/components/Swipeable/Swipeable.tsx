@@ -1,10 +1,8 @@
 import {Icon} from "@/components/Icon/Icon";
 import {Text} from "@/components/Text/Text";
 import {STRINGS} from "@/constants/strings";
-import {BORDER} from "@/theme/border";
 import {theme} from "@/theme/colors";
-import {SPACING} from "@/theme/spacing";
-import {StyleSheet, TouchableOpacity, type ViewProps} from "react-native";
+import {TouchableOpacity, type ViewProps} from "react-native";
 import {GestureHandlerRootView} from "react-native-gesture-handler";
 import ReanimatedSwipeable from "react-native-gesture-handler/ReanimatedSwipeable";
 import Reanimated, {
@@ -26,7 +24,7 @@ function RightAction({prog, drag, onTap}: RightActionProps): React.JSX.Element {
         return {
             transform: [{translateX: drag.value + RIGHT_ACTION_WIDTH}],
         };
-    });
+    }, [drag.value]);
 
     return (
         <TouchableOpacity onPress={onTap}>
@@ -47,13 +45,15 @@ function RightAction({prog, drag, onTap}: RightActionProps): React.JSX.Element {
 type SwipeableProps = ViewProps & {
     title: string;
     caption: string;
-    onPress: () => void;
-    onDismiss: () => void;
+    footer?: () => React.JSX.Element;
+    onPress?: () => void;
+    onDismiss?: () => void;
 };
 
 export const Swipeable = ({
     title,
     caption,
+    footer,
     onPress,
     onDismiss,
     style,
@@ -64,6 +64,7 @@ export const Swipeable = ({
         <TouchableOpacity onPress={onPress}>
             <GestureHandlerRootView>
                 <ReanimatedSwipeable
+                    enabled={!!onDismiss}
                     containerStyle={[
                         styles.swipeable,
                         {backgroundColor, borderColor},
@@ -76,12 +77,13 @@ export const Swipeable = ({
                         <RightAction
                             prog={progress}
                             drag={dragX}
-                            onTap={onDismiss}
+                            onTap={onDismiss ? onDismiss : () => {}}
                         />
                     )}
                 >
                     <Text type="label">{title}</Text>
                     <Text type="caption">{caption}</Text>
+                    {footer?.()}
                     <Reanimated.View style={styles.separator} />
                 </ReanimatedSwipeable>
             </GestureHandlerRootView>

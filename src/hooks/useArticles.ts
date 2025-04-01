@@ -7,7 +7,12 @@ import {useCallback, useEffect, useState} from "react";
 
 export const useArticles = () => {
     const [articles, setArticles] = useState<Article[]>([]);
-    const [deletedArticles, setDeletedArticles] = useState<string[]>([]);
+    const [deletedArticleIds, setDeletedArticleIds] = useState<Set<string>>(
+        new Set()
+    );
+    const [favoriteArticleIds, setFavoriteArticleIds] = useState<Set<string>>(
+        new Set()
+    );
     const [loading, setLoading] = useState<boolean>(true);
     const [error, setError] = useState<string | undefined>(undefined);
 
@@ -25,31 +30,74 @@ export const useArticles = () => {
     }, []);
 
     const deleteArticle = useCallback((deleteId: string) => {
-        setArticles((prevArticles) => {
-            const updatedArticles = prevArticles.filter(
-                (article) => article.objectID !== deleteId
-            );
-            setDeletedArticles((prevDeleted) => [...prevDeleted, deleteId]);
-            return updatedArticles;
+        setDeletedArticleIds((prevDeleted) => {
+            const updatedDeleted = new Set(prevDeleted);
+            updatedDeleted.add(deleteId);
+            return updatedDeleted;
         });
+    }, []);
+
+    const toggleFavoriteArticle = useCallback((articleId: string) => {
+        setFavoriteArticleIds((prevFavorites) => {
+            const updatedFavorites = new Set(prevFavorites);
+            if (updatedFavorites.has(articleId)) {
+                updatedFavorites.delete(articleId);
+            } else {
+                updatedFavorites.add(articleId);
+            }
+            return updatedFavorites;
+        });
+        setArticles((prevArticles) =>
+            prevArticles.map((article) =>
+                article.objectID === articleId
+                    ? {...article, isFavorite: !article.isFavorite}
+                    : article
+            )
+        );
     }, []);
 
     useEffect(() => {
         fetchArticles();
-        Storage.getItem(STORAGE_ID.deletedIdsSet).then(
-            (storageDeletedIds) =>
-                storageDeletedIds &&
-                setDeletedArticles(JSON.parse(storageDeletedIds))
-        );
     }, [fetchArticles]);
 
     useEffect(() => {
-        if (deletedArticles)
+        if (deletedArticleIds.size > 0) {
             Storage.setItem(
                 STORAGE_ID.deletedIdsSet,
-                JSON.stringify(deletedArticles)
+                JSON.stringify([...deletedArticleIds])
             );
-    }, [deletedArticles]);
+            const deletedArticles = JSON.stringify(
+                articles.filter((article) =>
+                    deletedArticleIds.has(article.objectID)
+                )
+            );
+            Storage.setItem(STORAGE_ID.deletedArticles, deletedArticles);
+        }
+    }, [deletedArticleIds, articles]);
 
-    return {articles, loading, error, fetchArticles, deleteArticle};
+    useEffect(() => {
+        if (favoriteArticleIds.size > 0) {
+            Storage.setItem(
+                STORAGE_ID.favoriteIdsSet,
+                JSON.stringify([...favoriteArticleIds])
+            );
+            const favoriteArticles = JSON.stringify(
+                articles.filter((article) =>
+                    favoriteArticleIds.has(article.objectID)
+                )
+            );
+            Storage.setItem(STORAGE_ID.favoriteArticles, favoriteArticles);
+        }
+    }, [favoriteArticleIds, articles]);
+
+    return {
+        articles: articles.filter(
+            (article) => !deletedArticleIds.has(article.objectID)
+        ),
+        loading,
+        error,
+        fetchArticles,
+        deleteArticle,
+        toggleFavoriteArticle,
+    };
 };

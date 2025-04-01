@@ -1,7 +1,7 @@
 import {SPACING} from "@/theme/spacing";
 import {StyleSheet} from "react-native";
 
-const SWIPEABLE_HEIGHT = 70;
+const SWIPEABLE_HEIGHT = 100;
 
 export const styles = StyleSheet.create({
     baseLayer: {

@@ -5,4 +5,6 @@ export type Article = {
     story_url: string;
     created_at: string;
     created_at_i: number;
+    // customs
+    isFavorite: boolean;
 };

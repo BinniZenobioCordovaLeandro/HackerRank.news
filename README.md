@@ -143,3 +143,12 @@ https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree
 - [*] Add local storage to save deleted articles
 - [*] Filter deleted articles when fetching, using localStorage
 - [*] Add unit test components, AppBar, Button, Icon, Text, Swipeable.
+
+# Sun Mar 30, Enhanced Features in CHALLENGE.md
+- [*] Add action to mark article as favorite, and save it in localStorage
+- [*] Add action to mark article as deleted, and save it in localStorage
+- [*] filter deleted articles when fetching, using localStorage
+- [*] Add custom field to article to show if it is favorite
+- [*] Add screen to list favorite articles
+- [*] Add screen to list deleted articles
+- [*] Add Custom expo tab bar to navigate through articles, favorites and deleted articles
