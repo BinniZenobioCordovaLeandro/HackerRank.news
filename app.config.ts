@@ -88,5 +88,15 @@ export default ({config}: {config: ExpoConfig}): ExpoConfig => ({
                 root: "src/app",
             },
         ],
+        [
+            "expo-notifications",
+            {
+                icon: "./assets/images/notification_icon.png",
+                color: "#ffffff",
+                defaultChannel: "default",
+                sounds: ["./assets/sounds/notification_sound.wav"],
+                enableBackgroundRemoteNotifications: true,
+            },
+        ],
     ],
 });

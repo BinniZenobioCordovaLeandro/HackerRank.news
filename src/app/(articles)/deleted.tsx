@@ -35,8 +35,8 @@ const DeletesScreen = () => {
                 <Swipeable
                     title={article.story_title}
                     caption={article.author}
-                    style={styles.swipeableContainer}
                     onPress={() => onPressArticle(article)}
+                    style={styles.swipeableContainer}
                 />
             )}
             keyExtractor={(item) => item.objectID}

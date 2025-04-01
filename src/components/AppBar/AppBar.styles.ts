@@ -7,4 +7,10 @@ export const styles = StyleSheet.create({
         alignItems: "center",
         padding: SPACING[4],
     },
+    title: {
+        flex: 1,
+        textAlign: "left",
+        overflow: "hidden",
+        paddingHorizontal: SPACING[2],
+    },
 });

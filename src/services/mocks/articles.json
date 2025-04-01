@@ -11,247 +11,406 @@
                 "author": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "throw1222212121"
+                    "value": "qiqitori"
                 },
                 "comment_text": {
                     "fullyHighlighted": false,
                     "matchLevel": "full",
                     "matchedWords": ["mobile"],
-                    "value": "Hmm let's see we're going to\u003Cp\u003E- Reimplement SQLAlchemy models (we'll call it a &quot;repository&quot;)\u003Cp\u003E- Reimplement SQLAlchemy sessions (&quot;unit of work&quot;)\u003Cp\u003E- Add a &quot;service layer&quot; that doesn't even use the models -- we unroll all the model attributes into separate function parameters because that's less coupled somehow\u003Cp\u003E- Scatter everything across a message bus to remove any hope of debugging it\u003Cp\u003E- AND THIS IS JUST FOR WRITES!\u003Cp\u003E- For reads, we have a separate fucking denormalized table that we query using raw SQL. (Seriously, see Chapter 12)\u003Cp\u003EHey, let's see how much traffic MADE.com serves. 500k total visits from desktop + \u003Cem\u003Emobile\u003C/em\u003E last month works out to... 12 views per MINUTE.\u003Cp\u003EGee, I wish my job was cushy enough that I could spend all day writing about &quot;DDD&quot; with my thumb up my ass."
+                    "value": "I think this totally depends on the site in question. Seriously researching something is hell on \u003Cem\u003Emobile\u003C/em\u003E browsers. As is doing productive stuff. Who wants to work on a tiny screen and no keyboard? On the desktop you can open dozens or hundreds of tabs on a single topic. Therefore I'm not surprised to see that on my site (technical articles) I can see the number of requests from \u003Cem\u003Emobile\u003C/em\u003E devices is just 17%.\u003Cp\u003EWindows is 52%, Linux (without Android) is 18%, Macintosh is 13%, Android 11%, iOS 6%, Chrome OS 0.5%, others &lt;0.5%. (Android and iOS may include tablets, but the overall traffic from tablets is just a few percent.) (Note that I've excluded crawlers and unknown user agents (bots and crawlers) from these results.)\u003Cp\u003EFWIW, some bots lie about what they are, which typically inflates the Windows results. I have another source of data, I can see what types of devices saw my site in Google results, and it's 69% desktops, 30% \u003Cem\u003Emobile\u003C/em\u003E, 1% tablets. (I can also see how many clicked, and it's similar numbers.)"
                 },
                 "story_title": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "Architecture Patterns with Python"
+                    "value": "The \u003Cselect\u003E element can now be customized with CSS"
                 },
                 "story_url": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "https://www.cosmicpython.com/book/preface.html"
+                    "value": "https://developer.chrome.com/blog/a-customizable-select"
                 }
             },
-            "_tags": ["comment", "author_throw1222212121", "story_43501989"],
-            "author": "throw1222212121",
-            "comment_text": "Hmm let&#x27;s see we&#x27;re going to\u003Cp\u003E- Reimplement SQLAlchemy models (we&#x27;ll call it a &quot;repository&quot;)\u003Cp\u003E- Reimplement SQLAlchemy sessions (&quot;unit of work&quot;)\u003Cp\u003E- Add a &quot;service layer&quot; that doesn&#x27;t even use the models -- we unroll all the model attributes into separate function parameters because that&#x27;s less coupled somehow\u003Cp\u003E- Scatter everything across a message bus to remove any hope of debugging it\u003Cp\u003E- AND THIS IS JUST FOR WRITES!\u003Cp\u003E- For reads, we have a separate fucking denormalized table that we query using raw SQL. (Seriously, see Chapter 12)\u003Cp\u003EHey, let&#x27;s see how much traffic MADE.com serves. 500k total visits from desktop + mobile last month works out to... 12 views per MINUTE.\u003Cp\u003EGee, I wish my job was cushy enough that I could spend all day writing about &quot;DDD&quot; with my thumb up my ass.",
-            "created_at": "2025-03-29T02:04:43Z",
-            "created_at_i": 1743213883,
-            "objectID": "43512088",
-            "parent_id": 43501989,
-            "story_id": 43501989,
-            "story_title": "Architecture Patterns with Python",
-            "story_url": "https://www.cosmicpython.com/book/preface.html",
-            "updated_at": "2025-03-29T02:07:06Z"
+            "_tags": ["comment", "author_qiqitori", "story_43532830"],
+            "author": "qiqitori",
+            "comment_text": "I think this totally depends on the site in question. Seriously researching something is hell on mobile browsers. As is doing productive stuff. Who wants to work on a tiny screen and no keyboard? On the desktop you can open dozens or hundreds of tabs on a single topic. Therefore I&#x27;m not surprised to see that on my site (technical articles) I can see the number of requests from mobile devices is just 17%.\u003Cp\u003EWindows is 52%, Linux (without Android) is 18%, Macintosh is 13%, Android 11%, iOS 6%, Chrome OS 0.5%, others &lt;0.5%. (Android and iOS may include tablets, but the overall traffic from tablets is just a few percent.) (Note that I&#x27;ve excluded crawlers and unknown user agents (bots and crawlers) from these results.)\u003Cp\u003EFWIW, some bots lie about what they are, which typically inflates the Windows results. I have another source of data, I can see what types of devices saw my site in Google results, and it&#x27;s 69% desktops, 30% mobile, 1% tablets. (I can also see how many clicked, and it&#x27;s similar numbers.)",
+            "created_at": "2025-04-01T03:53:28Z",
+            "created_at_i": 1743479608,
+            "objectID": "43542669",
+            "parent_id": 43541655,
+            "story_id": 43532830,
+            "story_title": "The \u003Cselect\u003E element can now be customized with CSS",
+            "story_url": "https://developer.chrome.com/blog/a-customizable-select",
+            "updated_at": "2025-04-01T03:54:17Z"
         },
         {
             "_highlightResult": {
                 "author": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "no_wizard"
+                    "value": "mdaniel"
                 },
                 "comment_text": {
                     "fullyHighlighted": false,
                     "matchLevel": "full",
                     "matchedWords": ["mobile"],
-                    "value": "More or less this, with some able to produce a few community nuggets, but it will take another vendor (and IBM tried at some point) to push Swift into actuality as a true cross platform language.\u003Cp\u003EIn another world, maybe instead of Java / Kotlin Google would have pivoted onto Swift as a language for \u003Cem\u003Emobile\u003C/em\u003E, closing the gap between the platforms a bit."
+                    "value": "Welcome to the journey!\u003Cp\u003EIf you haven't seen it yet, lichess.org has a bunch of fun content\u003Cp\u003E\u003Ca href=\"https://lichess.org/practice\" rel=\"nofollow\"\u003Ehttps://lichess.org/practice\u003C/a\u003E\u003Cp\u003E\u003Ca href=\"https://lichess.org/training\" rel=\"nofollow\"\u003Ehttps://lichess.org/training\u003C/a\u003E \u003Ci\u003E(it's labeled &quot;Puzzles&quot; in the UI; there's a difficulty picker hidden in the bottom left of the page)\u003C/i\u003E\u003Cp\u003EThey have \u003Cem\u003Emobile\u003C/em\u003E apps, too, although regrettably not all content is available on the app for some horrible reason"
                 },
                 "story_title": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "Swiftly 1.0"
+                    "value": "Show HN: I made a little puzzle game about a rogue chess knight"
                 },
                 "story_url": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "https://swift.org/blog/introducing-swiftly_10/"
+                    "value": "https://knightride.rakhim.org/"
                 }
             },
-            "_tags": ["comment", "author_no_wizard", "story_43509546"],
-            "author": "no_wizard",
-            "comment_text": "More or less this, with some able to produce a few community nuggets, but it will take another vendor (and IBM tried at some point) to push Swift into actuality as a true cross platform language.\u003Cp\u003EIn another world, maybe instead of Java &#x2F; Kotlin Google would have pivoted onto Swift as a language for mobile, closing the gap between the platforms a bit.",
-            "created_at": "2025-03-28T22:44:08Z",
-            "created_at_i": 1743201848,
-            "objectID": "43510677",
-            "parent_id": 43510502,
-            "story_id": 43509546,
-            "story_title": "Swiftly 1.0",
-            "story_url": "https://swift.org/blog/introducing-swiftly_10/",
-            "updated_at": "2025-03-29T01:22:18Z"
+            "_tags": ["comment", "author_mdaniel", "story_43515622"],
+            "author": "mdaniel",
+            "comment_text": "Welcome to the journey!\u003Cp\u003EIf you haven&#x27;t seen it yet, lichess.org has a bunch of fun content\u003Cp\u003E\u003Ca href=\"https:&#x2F;&#x2F;lichess.org&#x2F;practice\" rel=\"nofollow\"\u003Ehttps:&#x2F;&#x2F;lichess.org&#x2F;practice\u003C/a\u003E\u003Cp\u003E\u003Ca href=\"https:&#x2F;&#x2F;lichess.org&#x2F;training\" rel=\"nofollow\"\u003Ehttps:&#x2F;&#x2F;lichess.org&#x2F;training\u003C/a\u003E \u003Ci\u003E(it&#x27;s labeled &quot;Puzzles&quot; in the UI; there&#x27;s a difficulty picker hidden in the bottom left of the page)\u003C/i\u003E\u003Cp\u003EThey have mobile apps, too, although regrettably not all content is available on the app for some horrible reason",
+            "created_at": "2025-04-01T01:51:25Z",
+            "created_at_i": 1743472285,
+            "objectID": "43542023",
+            "parent_id": 43540536,
+            "story_id": 43515622,
+            "story_title": "Show HN: I made a little puzzle game about a rogue chess knight",
+            "story_url": "https://knightride.rakhim.org/",
+            "updated_at": "2025-04-01T01:53:33Z"
         },
         {
             "_highlightResult": {
                 "author": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "rntn"
+                    "value": "chrisa"
+                },
+                "comment_text": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": ["mobile"],
+                    "value": "You can actually share any channel!\u003Cp\u003EIt is a very hidden feature though. You have to link your kids account to yours, and then in the Youtube \u003Cem\u003Emobile\u003C/em\u003E app (not on the web), you can click the three dots button and then share &gt; &quot;with kids&quot;\u003Cp\u003ESo that way you can build up a whitelist of channels that they can see in the YT kids account."
+                },
+                "story_title": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "Kagi for Kids"
+                },
+                "story_url": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "https://help.kagi.com/kagi/plans/family-plan.html#kidslogin"
+                }
+            },
+            "_tags": ["comment", "author_chrisa", "story_43538338"],
+            "author": "chrisa",
+            "comment_text": "You can actually share any channel!\u003Cp\u003EIt is a very hidden feature though. You have to link your kids account to yours, and then in the Youtube mobile app (not on the web), you can click the three dots button and then share &gt; &quot;with kids&quot;\u003Cp\u003ESo that way you can build up a whitelist of channels that they can see in the YT kids account.",
+            "created_at": "2025-04-01T01:35:21Z",
+            "created_at_i": 1743471321,
+            "objectID": "43541943",
+            "parent_id": 43539636,
+            "story_id": 43538338,
+            "story_title": "Kagi for Kids",
+            "story_url": "https://help.kagi.com/kagi/plans/family-plan.html#kidslogin",
+            "updated_at": "2025-04-01T04:06:03Z"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "immibis"
+                },
+                "comment_text": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": ["mobile"],
+                    "value": "\u003Cem\u003EMobile\u003C/em\u003E users are the majority of users by far. Do web designers really make their sites hostile to most of their users? (I suspect the answer is yes)"
+                },
+                "story_title": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "The \u003Cselect\u003E element can now be customized with CSS"
+                },
+                "story_url": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "https://developer.chrome.com/blog/a-customizable-select"
+                }
+            },
+            "_tags": ["comment", "author_immibis", "story_43532830"],
+            "author": "immibis",
+            "children": [43542669],
+            "comment_text": "Mobile users are the majority of users by far. Do web designers really make their sites hostile to most of their users? (I suspect the answer is yes)",
+            "created_at": "2025-04-01T00:44:37Z",
+            "created_at_i": 1743468277,
+            "objectID": "43541655",
+            "parent_id": 43536090,
+            "story_id": 43532830,
+            "story_title": "The \u003Cselect\u003E element can now be customized with CSS",
+            "story_url": "https://developer.chrome.com/blog/a-customizable-select",
+            "updated_at": "2025-04-01T03:54:17Z"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "muzani"
+                },
+                "comment_text": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": ["mobile"],
+                    "value": "1. Drawing, like proper academic drawing. I think I'm close to the skill cap on \u003Cem\u003Emobile\u003C/em\u003E dev. Design skill would help a lot, things like seeing lighting and stuff. There's things like ambient light, like if the bottom of an area is purple, the top is green, the bottom will bounce some purplish light onto the middle which affects how shadows will look. This is something AI still has problem grasping. Also things like composition, like which people are on the left, which are on the right.\u003Cp\u003E2. CSS tricks and animation. While other people try to race on Leetcode, my personal favorite is CodePen.\u003Cp\u003E3. Probably learn Flutter and React \u003Ci\u003Eproperly\u003C/i\u003E instead of just going in blind and editing code."
+                },
+                "story_title": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "Ask HN: If you had 100 hours to learn something new, what would you learn?"
+                }
+            },
+            "_tags": ["comment", "author_muzani", "story_43531809"],
+            "author": "muzani",
+            "comment_text": "1. Drawing, like proper academic drawing. I think I&#x27;m close to the skill cap on mobile dev. Design skill would help a lot, things like seeing lighting and stuff. There&#x27;s things like ambient light, like if the bottom of an area is purple, the top is green, the bottom will bounce some purplish light onto the middle which affects how shadows will look. This is something AI still has problem grasping. Also things like composition, like which people are on the left, which are on the right.\u003Cp\u003E2. CSS tricks and animation. While other people try to race on Leetcode, my personal favorite is CodePen.\u003Cp\u003E3. Probably learn Flutter and React \u003Ci\u003Eproperly\u003C/i\u003E instead of just going in blind and editing code.",
+            "created_at": "2025-03-31T23:30:43Z",
+            "created_at_i": 1743463843,
+            "objectID": "43541170",
+            "parent_id": 43531809,
+            "story_id": 43531809,
+            "story_title": "Ask HN: If you had 100 hours to learn something new, what would you learn?",
+            "updated_at": "2025-03-31T23:31:50Z"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "muzani"
+                },
+                "comment_text": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": ["mobile"],
+                    "value": "I'm almost 40 and have no issues with this yet. Colemak is my favorite non-QWERTY and feels smooth, but sadly, programming was designed with QWERTY in mind. The 30% comfort improvement wasn't really worth it and there's a speed drop because I've been on QWERTY since 5 years old. I also use my laptop in well, laptop mode half the time, so eventually I went back to QWERTY.\u003Cp\u003EBut it's actually surprising on \u003Cem\u003Emobile\u003C/em\u003E how much easier a non-QWERTY keyboard is considering it's two thumbs and your thumbs are at the pinky areas most of the time."
+                },
+                "story_title": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "Ask HN: If you had 100 hours to learn something new, what would you learn?"
+                }
+            },
+            "_tags": ["comment", "author_muzani", "story_43531809"],
+            "author": "muzani",
+            "comment_text": "I&#x27;m almost 40 and have no issues with this yet. Colemak is my favorite non-QWERTY and feels smooth, but sadly, programming was designed with QWERTY in mind. The 30% comfort improvement wasn&#x27;t really worth it and there&#x27;s a speed drop because I&#x27;ve been on QWERTY since 5 years old. I also use my laptop in well, laptop mode half the time, so eventually I went back to QWERTY.\u003Cp\u003EBut it&#x27;s actually surprising on mobile how much easier a non-QWERTY keyboard is considering it&#x27;s two thumbs and your thumbs are at the pinky areas most of the time.",
+            "created_at": "2025-03-31T23:25:46Z",
+            "created_at_i": 1743463546,
+            "objectID": "43541123",
+            "parent_id": 43534181,
+            "story_id": 43531809,
+            "story_title": "Ask HN: If you had 100 hours to learn something new, what would you learn?",
+            "updated_at": "2025-03-31T23:26:34Z"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "progmetaldev"
+                },
+                "comment_text": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": ["mobile"],
+                    "value": "Interested in what you are doing with the iframes. Something with complex authentication? I've been forced to use iframes a few times for 3rd party resources that should have been first-party (mostly with banks and credit unions), and have only had some styling issues on \u003Cem\u003Emobile\u003C/em\u003E (which have been overcome by using JavaScript and window.matchMedia to check for media queries)."
+                },
+                "story_title": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "The \u003Cselect\u003E element can now be customized with CSS"
+                },
+                "story_url": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "https://developer.chrome.com/blog/a-customizable-select"
+                }
+            },
+            "_tags": ["comment", "author_progmetaldev", "story_43532830"],
+            "author": "progmetaldev",
+            "comment_text": "Interested in what you are doing with the iframes. Something with complex authentication? I&#x27;ve been forced to use iframes a few times for 3rd party resources that should have been first-party (mostly with banks and credit unions), and have only had some styling issues on mobile (which have been overcome by using JavaScript and window.matchMedia to check for media queries).",
+            "created_at": "2025-03-31T22:47:44Z",
+            "created_at_i": 1743461264,
+            "objectID": "43540804",
+            "parent_id": 43539953,
+            "story_id": 43532830,
+            "story_title": "The \u003Cselect\u003E element can now be customized with CSS",
+            "story_url": "https://developer.chrome.com/blog/a-customizable-select",
+            "updated_at": "2025-03-31T22:50:04Z"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "andrewfromx"
+                },
+                "comment_text": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": ["mobile"],
+                    "value": "nooooo! use AI and make native swift and native kotlin. The \u003Cem\u003Emobile\u003C/em\u003E experience will be 100x better. And for a social media app it's ALL about \u003Cem\u003Emobile\u003C/em\u003E.\u003Cp\u003Eaider --model gemini/gemini-2.5-pro-exp-03-25\u003Cp\u003Egemini-2.5 is the best in the world right now. Even better than claude 3.7 and it's free!"
+                },
+                "story_title": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "I am developing this social media platform as a solo founder"
+                }
+            },
+            "_tags": ["comment", "author_andrewfromx", "story_43539091"],
+            "author": "andrewfromx",
+            "comment_text": "nooooo! use AI and make native swift and native kotlin. The mobile experience will be 100x better. And for a social media app it&#x27;s ALL about mobile.\u003Cp\u003Eaider --model gemini&#x2F;gemini-2.5-pro-exp-03-25\u003Cp\u003Egemini-2.5 is the best in the world right now. Even better than claude 3.7 and it&#x27;s free!",
+            "created_at": "2025-03-31T21:40:55Z",
+            "created_at_i": 1743457255,
+            "objectID": "43540289",
+            "parent_id": 43539525,
+            "story_id": 43539091,
+            "story_title": "I am developing this social media platform as a solo founder",
+            "updated_at": "2025-03-31T21:42:17Z"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "bentocorp"
                 },
                 "title": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "New Zealand banned phones in schools 12 months ago. Here's what happened"
+                },
+                "url": {
                     "fullyHighlighted": false,
                     "matchLevel": "full",
                     "matchedWords": ["mobile"],
-                    "value": "\u003Cem\u003EMobile\u003C/em\u003E ad world drama: AppLovin not lovin' short seller assault claiming fraud"
-                },
-                "url": {
-                    "matchLevel": "none",
-                    "matchedWords": [],
-                    "value": "https://www.theregister.com/2025/03/28/applovin_alleged_ad_fraud/"
+                    "value": "https://www.independent.co.uk/news/world/australasia/\u003Cem\u003Emobile\u003C/em\u003E-phone-ban-schools-review-new-zealand-survey-b2724455.html"
                 }
             },
-            "_tags": ["story", "author_rntn", "story_43510599"],
-            "author": "rntn",
-            "created_at": "2025-03-28T22:36:25Z",
-            "created_at_i": 1743201385,
+            "_tags": ["story", "author_bentocorp", "story_43540035"],
+            "author": "bentocorp",
+            "created_at": "2025-03-31T21:13:11Z",
+            "created_at_i": 1743455591,
             "num_comments": 0,
-            "objectID": "43510599",
-            "points": 1,
-            "story_id": 43510599,
-            "title": "Mobile ad world drama: AppLovin not lovin' short seller assault claiming fraud",
-            "updated_at": "2025-03-28T22:37:34Z",
-            "url": "https://www.theregister.com/2025/03/28/applovin_alleged_ad_fraud/"
+            "objectID": "43540035",
+            "points": 4,
+            "story_id": 43540035,
+            "title": "New Zealand banned phones in schools 12 months ago. Here's what happened",
+            "updated_at": "2025-04-01T02:22:48Z",
+            "url": "https://www.independent.co.uk/news/world/australasia/mobile-phone-ban-schools-review-new-zealand-survey-b2724455.html"
         },
         {
             "_highlightResult": {
                 "author": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "tuxxness"
-                },
-                "story_text": {
-                    "fullyHighlighted": false,
-                    "matchLevel": "full",
-                    "matchedWords": ["mobile"],
-                    "value": "I have no found any simple, lightweight tools for quickly browsing media files on my computer. Sometimes I just want to view a folder of images, videos, or code files through a nice interface without uploading anything to the cloud or processing a lot of files for big directories.\u003Cp\u003ESo I built LocalPics, a portable Go application that creates a beautiful local web interface for browsing your media files. Point it at any directory, and it instantly serves a responsive web UI that categorizes and displays your files by type.\u003Cp\u003EFeatures:\u003Cp\u003E- Zero dependencies - Just a single binary, no installation required\u003Cp\u003E- Fast scanning - Handles thousands of files quickly\u003Cp\u003E- Responsive UI - Works on desktop and \u003Cem\u003Emobile\u003C/em\u003E browsers\u003Cp\u003E- File categorization - Automatically groups files by type (images, videos, audio, code, etc.)\u003Cp\u003E- EXIF data extraction - View camera details, GPS coordinates, and other metadata for images\u003Cp\u003E- Syntax highlighting - Beautiful code previews with language detection\u003Cp\u003E- Markdown rendering - Preview markdown files with proper formatting\u003Cp\u003E- Local-only - Everything runs on your machine, no data ever leaves your computer\u003Cp\u003E- Video and audio playback - Built-in players for media files\u003Cp\u003E- Optional file deletion API - Can be enabled with a flag for pruning your collection\u003Cp\u003EHow it works:\u003Cp\u003ELocalPics uses Go's standard library (no external dependencies) to scan a directory, categorize files, and generate JSON indexes and an HTML interface. It then starts a local HTTP server to serve these files, along with the original media.\u003Cp\u003EThe frontend is pure HTML, CSS, and JavaScript, leveraging a few CDN-served libraries like PrismJS for syntax highlighting and ExifJS for metadata extraction.\u003Cp\u003EUsage:\u003Cp\u003ESimply run:\u003Cp\u003Elocalpics -indir ~/Pictures\u003Cp\u003EAnd a web server will start at \u003Ca href=\"http://localhost:8080\" rel=\"nofollow\"\u003Ehttp://localhost:8080\u003C/a\u003E where you can browse your files.\u003Cp\u003EAdditional options:\u003Cp\u003Elocalpics -indir &lt;input_directory&gt; [-outdir &lt;output_directory&gt;] [-delete]\u003Cp\u003EThe source code is available at \u003Ca href=\"https://github.com/tuxx/localpics\" rel=\"nofollow\"\u003Ehttps://github.com/tuxx/localpics\u003C/a\u003E. It's under 1000 lines of Go code, making it easy to understand and modify."
-                },
-                "title": {
-                    "matchLevel": "none",
-                    "matchedWords": [],
-                    "value": "Show HN: LocalPics – A zero-dependency local media viewer written in Go"
-                },
-                "url": {
-                    "matchLevel": "none",
-                    "matchedWords": [],
-                    "value": "https://github.com/tuxx/localpics"
-                }
-            },
-            "_tags": ["story", "author_tuxxness", "story_43510523", "show_hn"],
-            "author": "tuxxness",
-            "children": [43511430],
-            "created_at": "2025-03-28T22:30:05Z",
-            "created_at_i": 1743201005,
-            "num_comments": 1,
-            "objectID": "43510523",
-            "points": 2,
-            "story_id": 43510523,
-            "story_text": "I have no found any simple, lightweight tools for quickly browsing media files on my computer. Sometimes I just want to view a folder of images, videos, or code files through a nice interface without uploading anything to the cloud or processing a lot of files for big directories.\u003Cp\u003ESo I built LocalPics, a portable Go application that creates a beautiful local web interface for browsing your media files. Point it at any directory, and it instantly serves a responsive web UI that categorizes and displays your files by type.\u003Cp\u003EFeatures:\u003Cp\u003E- Zero dependencies - Just a single binary, no installation required\u003Cp\u003E- Fast scanning - Handles thousands of files quickly\u003Cp\u003E- Responsive UI - Works on desktop and mobile browsers\u003Cp\u003E- File categorization - Automatically groups files by type (images, videos, audio, code, etc.)\u003Cp\u003E- EXIF data extraction - View camera details, GPS coordinates, and other metadata for images\u003Cp\u003E- Syntax highlighting - Beautiful code previews with language detection\u003Cp\u003E- Markdown rendering - Preview markdown files with proper formatting\u003Cp\u003E- Local-only - Everything runs on your machine, no data ever leaves your computer\u003Cp\u003E- Video and audio playback - Built-in players for media files\u003Cp\u003E- Optional file deletion API - Can be enabled with a flag for pruning your collection\u003Cp\u003EHow it works:\u003Cp\u003ELocalPics uses Go&#x27;s standard library (no external dependencies) to scan a directory, categorize files, and generate JSON indexes and an HTML interface. It then starts a local HTTP server to serve these files, along with the original media.\u003Cp\u003EThe frontend is pure HTML, CSS, and JavaScript, leveraging a few CDN-served libraries like PrismJS for syntax highlighting and ExifJS for metadata extraction.\u003Cp\u003EUsage:\u003Cp\u003ESimply run:\u003Cp\u003Elocalpics -indir ~&#x2F;Pictures\u003Cp\u003EAnd a web server will start at \u003Ca href=\"http:&#x2F;&#x2F;localhost:8080\" rel=\"nofollow\"\u003Ehttp:&#x2F;&#x2F;localhost:8080\u003C/a\u003E where you can browse your files.\u003Cp\u003EAdditional options:\u003Cp\u003Elocalpics -indir &lt;input_directory&gt; [-outdir &lt;output_directory&gt;] [-delete]\u003Cp\u003EThe source code is available at \u003Ca href=\"https:&#x2F;&#x2F;github.com&#x2F;tuxx&#x2F;localpics\" rel=\"nofollow\"\u003Ehttps:&#x2F;&#x2F;github.com&#x2F;tuxx&#x2F;localpics\u003C/a\u003E. It&#x27;s under 1000 lines of Go code, making it easy to understand and modify.",
-            "title": "Show HN: LocalPics – A zero-dependency local media viewer written in Go",
-            "updated_at": "2025-03-29T00:18:03Z",
-            "url": "https://github.com/tuxx/localpics"
-        },
-        {
-            "_highlightResult": {
-                "author": {
-                    "matchLevel": "none",
-                    "matchedWords": [],
-                    "value": "mdp2021"
-                },
-                "title": {
-                    "fullyHighlighted": false,
-                    "matchLevel": "full",
-                    "matchedWords": ["mobile"],
-                    "value": "RTX 5090 \u003Cem\u003EMobile\u003C/em\u003E: First LLM Benchmarks Are In"
-                },
-                "url": {
-                    "fullyHighlighted": false,
-                    "matchLevel": "full",
-                    "matchedWords": ["mobile"],
-                    "value": "https://www.hardware-corner.net/rtx-5090-\u003Cem\u003Emobile\u003C/em\u003E-first-llm-benchmarks/"
-                }
-            },
-            "_tags": ["story", "author_mdp2021", "story_43510436"],
-            "author": "mdp2021",
-            "created_at": "2025-03-28T22:19:58Z",
-            "created_at_i": 1743200398,
-            "num_comments": 0,
-            "objectID": "43510436",
-            "points": 2,
-            "story_id": 43510436,
-            "title": "RTX 5090 Mobile: First LLM Benchmarks Are In",
-            "updated_at": "2025-03-28T22:59:02Z",
-            "url": "https://www.hardware-corner.net/rtx-5090-mobile-first-llm-benchmarks/"
-        },
-        {
-            "_highlightResult": {
-                "author": {
-                    "matchLevel": "none",
-                    "matchedWords": [],
-                    "value": "crawsome"
+                    "value": "kmeisthax"
                 },
                 "comment_text": {
                     "fullyHighlighted": false,
                     "matchLevel": "full",
                     "matchedWords": ["mobile"],
-                    "value": "&gt;That's why there are no more iPhone minis.\u003Cp\u003EI think the minis have a 5.4&quot; screen, meanwhile the SE has a 4.7&quot; screen. I own and prefer an SE.\u003Cp\u003E&gt;I do miss smaller phones, and especially a physical keyboard.\u003Cp\u003EThere's these &quot;Clicks&quot; but it's a rubber slip case that has an extended keyboard at the bottom. They're pretty hideous.\u003Cp\u003EI also wanted a physical keyboard, so I waited and found on EBay a Moguls \u003Cem\u003EMobile\u003C/em\u003E iPhone 6 Keyboard case, which actually fit the SE after I dremeled-out the camera hole a little! My rose tinted glasses were a bit strong though, because swype is faster than thumb physical qwerty.\u003Cp\u003EI fondly miss when HTC was making innovative devices, when everything was up in the air. I had the G1, a mytouch4g slide, A Samsung Galaxy S relay. All QWERTY slider phones and all amazing experiences."
+                    "value": "For the record, there's already a bunch of custom select-a-like replacement elements out there; I'm partial to select2. The main reason for this is that selects don't come with what we used to call &quot;combobox&quot; features; there's no type-ahead completion, and you can't lazy-load options from a larger data source because of that.\u003Cp\u003EMy main gripe is the loss of rendering outside the browser pane. To be clear, we already don't have that on \u003Cem\u003Emobile\u003C/em\u003E at all; if you've ever used an iPad with Stage Manager you'll note how popovers - all of them, including native apps - are neatly conformed to the bounds of the containing window. Pop-over menus are \u003Ci\u003Esupposed\u003C/i\u003E to break the window pane, but they don't, for reasons I don't quite understand but can guess rhyme with the word &quot;security&quot;."
                 },
                 "story_title": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "Digital Echoes and Unquiet Minds"
+                    "value": "The \u003Cselect\u003E element can now be customized with CSS"
                 },
                 "story_url": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "https://www.chrbutler.com/digital-echoes-and-unquiet-minds"
+                    "value": "https://developer.chrome.com/blog/a-customizable-select"
                 }
             },
-            "_tags": ["comment", "author_crawsome", "story_43509548"],
-            "author": "crawsome",
-            "children": [43511633],
-            "comment_text": "&gt;That&#x27;s why there are no more iPhone minis.\u003Cp\u003EI think the minis have a 5.4&quot; screen, meanwhile the SE has a 4.7&quot; screen. I own and prefer an SE.\u003Cp\u003E&gt;I do miss smaller phones, and especially a physical keyboard.\u003Cp\u003EThere&#x27;s these &quot;Clicks&quot; but it&#x27;s a rubber slip case that has an extended keyboard at the bottom. They&#x27;re pretty hideous.\u003Cp\u003EI also wanted a physical keyboard, so I waited and found on EBay a Moguls Mobile iPhone 6 Keyboard case, which actually fit the SE after I dremeled-out the camera hole a little! My rose tinted glasses were a bit strong though, because swype is faster than thumb physical qwerty.\u003Cp\u003EI fondly miss when HTC was making innovative devices, when everything was up in the air. I had the G1, a mytouch4g slide, A Samsung Galaxy S relay. All QWERTY slider phones and all amazing experiences.",
-            "created_at": "2025-03-28T22:06:37Z",
-            "created_at_i": 1743199597,
-            "objectID": "43510331",
-            "parent_id": 43509892,
-            "story_id": 43509548,
-            "story_title": "Digital Echoes and Unquiet Minds",
-            "story_url": "https://www.chrbutler.com/digital-echoes-and-unquiet-minds",
-            "updated_at": "2025-03-29T00:46:18Z"
+            "_tags": ["comment", "author_kmeisthax", "story_43532830"],
+            "author": "kmeisthax",
+            "comment_text": "For the record, there&#x27;s already a bunch of custom select-a-like replacement elements out there; I&#x27;m partial to select2. The main reason for this is that selects don&#x27;t come with what we used to call &quot;combobox&quot; features; there&#x27;s no type-ahead completion, and you can&#x27;t lazy-load options from a larger data source because of that.\u003Cp\u003EMy main gripe is the loss of rendering outside the browser pane. To be clear, we already don&#x27;t have that on mobile at all; if you&#x27;ve ever used an iPad with Stage Manager you&#x27;ll note how popovers - all of them, including native apps - are neatly conformed to the bounds of the containing window. Pop-over menus are \u003Ci\u003Esupposed\u003C/i\u003E to break the window pane, but they don&#x27;t, for reasons I don&#x27;t quite understand but can guess rhyme with the word &quot;security&quot;.",
+            "created_at": "2025-03-31T21:01:06Z",
+            "created_at_i": 1743454866,
+            "objectID": "43539933",
+            "parent_id": 43536090,
+            "story_id": 43532830,
+            "story_title": "The \u003Cselect\u003E element can now be customized with CSS",
+            "story_url": "https://developer.chrome.com/blog/a-customizable-select",
+            "updated_at": "2025-04-01T03:23:34Z"
         },
         {
             "_highlightResult": {
                 "author": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "xnx"
+                    "value": "kiwicopple"
                 },
                 "comment_text": {
                     "fullyHighlighted": false,
                     "matchLevel": "full",
                     "matchedWords": ["mobile"],
-                    "value": "The general public has little concept how much personal information ISPs, TV makers, car companies, websites (cross-site tracking), and shady \u003Cem\u003Emobile\u003C/em\u003E apps are collecting and selling. Google and Apple look like saints by comparison."
+                    "value": "[supabase ceo]\u003Cp\u003EDespite the title &quot;UI library&quot;, this is more like a &quot;component registry&quot; for developers to bootstrap their applications and it will work for everything from Web &amp; \u003Cem\u003EMobile\u003C/em\u003E, to database scaffolding. Perhaps some poor naming/positioning on our part.\u003Cp\u003EIf you aren't familiar with shadcn, it works by dumping a bunch of files into your application which you can modify at your leisure. This is a different from something the &quot;Bootstrap&quot; approach where you could only do minimal tweaks to the theming."
                 },
                 "story_title": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "TV is watching you – Companies inventing new ways to make money off your data"
+                    "value": "Supabase UI Library"
                 },
                 "story_url": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "https://www.vox.com/technology/405879/roku-amazon-netflix-moana-disney"
+                    "value": "https://supabase.com/ui"
                 }
             },
-            "_tags": ["comment", "author_xnx", "story_43509607"],
-            "author": "xnx",
-            "children": [43510470],
-            "comment_text": "The general public has little concept how much personal information ISPs, TV makers, car companies, websites (cross-site tracking), and shady mobile apps are collecting and selling. Google and Apple look like saints by comparison.",
-            "created_at": "2025-03-28T22:03:19Z",
-            "created_at_i": 1743199399,
-            "objectID": "43510298",
-            "parent_id": 43509607,
-            "story_id": 43509607,
-            "story_title": "TV is watching you – Companies inventing new ways to make money off your data",
-            "story_url": "https://www.vox.com/technology/405879/roku-amazon-netflix-moana-disney",
-            "updated_at": "2025-03-29T01:22:48Z"
+            "_tags": ["comment", "author_kiwicopple", "story_43536116"],
+            "author": "kiwicopple",
+            "children": [43542734],
+            "comment_text": "[supabase ceo]\u003Cp\u003EDespite the title &quot;UI library&quot;, this is more like a &quot;component registry&quot; for developers to bootstrap their applications and it will work for everything from Web &amp; Mobile, to database scaffolding. Perhaps some poor naming&#x2F;positioning on our part.\u003Cp\u003EIf you aren&#x27;t familiar with shadcn, it works by dumping a bunch of files into your application which you can modify at your leisure. This is a different from something the &quot;Bootstrap&quot; approach where you could only do minimal tweaks to the theming.",
+            "created_at": "2025-03-31T20:46:28Z",
+            "created_at_i": 1743453988,
+            "objectID": "43539785",
+            "parent_id": 43538780,
+            "story_id": 43536116,
+            "story_title": "Supabase UI Library",
+            "story_url": "https://supabase.com/ui",
+            "updated_at": "2025-04-01T04:07:18Z"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "shannontkwong"
+                },
+                "comment_text": {
+                    "fullyHighlighted": false,
+                    "matchLevel": "full",
+                    "matchedWords": ["mobile"],
+                    "value": "I'm already done with the web app, and will do the \u003Cem\u003Emobile\u003C/em\u003E app version which I will use react native for!"
+                },
+                "story_title": {
+                    "matchLevel": "none",
+                    "matchedWords": [],
+                    "value": "I am developing this social media platform as a solo founder"
+                }
+            },
+            "_tags": ["comment", "author_shannontkwong", "story_43539091"],
+            "author": "shannontkwong",
+            "children": [43540289],
+            "comment_text": "I&#x27;m already done with the web app, and will do the mobile app version which I will use react native for!",
+            "created_at": "2025-03-31T20:24:49Z",
+            "created_at_i": 1743452689,
+            "objectID": "43539525",
+            "parent_id": 43539233,
+            "story_id": 43539091,
+            "story_title": "I am developing this social media platform as a solo founder",
+            "updated_at": "2025-03-31T21:41:48Z"
         },
         {
             "_highlightResult": {
@@ -260,495 +419,306 @@
                     "matchedWords": [],
                     "value": "PaulHoule"
                 },
-                "comment_text": {
+                "title": {
                     "fullyHighlighted": false,
                     "matchLevel": "full",
                     "matchedWords": ["mobile"],
-                    "value": "In upstate NY there is a huge controversy over &quot;burn barrels&quot;.  Some of my neighbors who some might call &quot;rednecks&quot; like burning plastic and other waste but I sure hate walking by when they do it.\u003Cp\u003ECompanies like Exxon \u003Cem\u003EMobil\u003C/em\u003E have a hard time convincing regulators that it is OK for them to burn plastic\u003Cp\u003E\u003Ca href=\"https://www.propublica.org/article/exxonmobil-plastics-recycling-pyrolysis-lawsuit-california\" rel=\"nofollow\"\u003Ehttps://www.propublica.org/article/exxonmobil-plastics-recyc...\u003C/a\u003E\u003Cp\u003Eand other high tech solutions run into trouble\u003Cp\u003E\u003Ca href=\"https://en.wikipedia.org/wiki/Plasma_gasification\" rel=\"nofollow\"\u003Ehttps://en.wikipedia.org/wiki/Plasma_gasification\u003C/a\u003E\u003Cp\u003ELow-tech incineration of waste during the &quot;Global War on Terror&quot; is blamed for disabling complications in US Veterans:\u003Cp\u003E\u003Ca href=\"https://en.wikipedia.org/wiki/Burn_pit\" rel=\"nofollow\"\u003Ehttps://en.wikipedia.org/wiki/Burn_pit\u003C/a\u003E"
+                    "value": "Novel Smart Glove for Ride Monitoring in Light \u003Cem\u003EMobili\u003C/em\u003Ety"
                 },
-                "story_title": {
+                "url": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "Invention Turns Plastic Waste into Home Energy – No Solar Panels Needed"
-                },
-                "story_url": {
-                    "matchLevel": "none",
-                    "matchedWords": [],
-                    "value": "https://www.soscip.org/us/invention-turns-plastic-waste-home-energy/"
+                    "value": "https://www.mdpi.com/2410-390X/9/1/6"
                 }
             },
-            "_tags": ["comment", "author_PaulHoule", "story_43509538"],
+            "_tags": ["story", "author_PaulHoule", "story_43539413"],
             "author": "PaulHoule",
-            "comment_text": "In upstate NY there is a huge controversy over &quot;burn barrels&quot;.  Some of my neighbors who some might call &quot;rednecks&quot; like burning plastic and other waste but I sure hate walking by when they do it.\u003Cp\u003ECompanies like Exxon Mobil have a hard time convincing regulators that it is OK for them to burn plastic\u003Cp\u003E\u003Ca href=\"https:&#x2F;&#x2F;www.propublica.org&#x2F;article&#x2F;exxonmobil-plastics-recycling-pyrolysis-lawsuit-california\" rel=\"nofollow\"\u003Ehttps:&#x2F;&#x2F;www.propublica.org&#x2F;article&#x2F;exxonmobil-plastics-recyc...\u003C/a\u003E\u003Cp\u003Eand other high tech solutions run into trouble\u003Cp\u003E\u003Ca href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Plasma_gasification\" rel=\"nofollow\"\u003Ehttps:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Plasma_gasification\u003C/a\u003E\u003Cp\u003ELow-tech incineration of waste during the &quot;Global War on Terror&quot; is blamed for disabling complications in US Veterans:\u003Cp\u003E\u003Ca href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Burn_pit\" rel=\"nofollow\"\u003Ehttps:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Burn_pit\u003C/a\u003E",
-            "created_at": "2025-03-28T20:35:02Z",
-            "created_at_i": 1743194102,
-            "objectID": "43509587",
-            "parent_id": 43509538,
-            "story_id": 43509538,
-            "story_title": "Invention Turns Plastic Waste into Home Energy – No Solar Panels Needed",
-            "story_url": "https://www.soscip.org/us/invention-turns-plastic-waste-home-energy/",
-            "updated_at": "2025-03-28T21:12:02Z"
+            "created_at": "2025-03-31T20:17:01Z",
+            "created_at_i": 1743452221,
+            "num_comments": 0,
+            "objectID": "43539413",
+            "points": 2,
+            "story_id": 43539413,
+            "title": "Novel Smart Glove for Ride Monitoring in Light Mobility",
+            "updated_at": "2025-03-31T20:18:47Z",
+            "url": "https://www.mdpi.com/2410-390X/9/1/6"
         },
         {
             "_highlightResult": {
                 "author": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "teleforce"
+                    "value": "ochiba"
                 },
                 "comment_text": {
                     "fullyHighlighted": false,
                     "matchLevel": "full",
                     "matchedWords": ["mobile"],
-                    "value": "TL;DR:\u003Cp\u003E&quot;From a historical perspective, Kerala has at least four distinct qualities that most states in India do not share. First, it has a centuries-long history of trade and migration, particularly with West Asia and Europe. Second, Kerala is rich in natural resources, which have been commercially exploited. Third, Kerala boasts a highly literate, skilled and \u003Cem\u003Emobile\u003C/em\u003E workforce. Finally, the state has a strong Left political movement. Any story we tell about its advances in health and education or its recent income growth must refer to some of these longstanding variables.&quot;"
+                    "value": "There are niche use cases where the former (work for days to weeks offline) are useful and even critical - like certain field service use cases. Surviving glitches in network connectivity is useful for mainstream/consumer applications for users in general, especially those on \u003Cem\u003Emobile\u003C/em\u003E.\u003Cp\u003EIn my experience, it can affect the architecture and performance in a significant way. If a client can go offline for an arbitrary period of time, doing a delta sync when they come back online is more tricky, since we need to sync a specific range of operation history (and this needs to be adjusted for specific scope/permissions that the client has access to). If you scale up a system to thousands or millions of clients, having them all do arbitrary range queries doesn't scale well. For this reason I've seen sync engines simply force a client to do a complete re-sync if it &quot;falls behind&quot; with deltas for too long (e.g. more than a day or so.) Maintaining an operation log that is set up and indexed for querying arbitrary ranges of operations (for a specific scope of data) works well."
                 },
                 "story_title": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "How Kerala got rich"
+                    "value": "Turso SQLite Offline Sync Public Beta"
                 },
                 "story_url": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "https://aeon.co/essays/how-did-kerala-go-from-poor-to-prosperous-among-indias-states"
+                    "value": "https://turso.tech/blog/turso-offline-sync-public-beta"
                 }
             },
-            "_tags": ["comment", "author_teleforce", "story_43507286"],
-            "author": "teleforce",
-            "children": [43509678],
-            "comment_text": "TL;DR:\u003Cp\u003E&quot;From a historical perspective, Kerala has at least four distinct qualities that most states in India do not share. First, it has a centuries-long history of trade and migration, particularly with West Asia and Europe. Second, Kerala is rich in natural resources, which have been commercially exploited. Third, Kerala boasts a highly literate, skilled and mobile workforce. Finally, the state has a strong Left political movement. Any story we tell about its advances in health and education or its recent income growth must refer to some of these longstanding variables.&quot;",
-            "created_at": "2025-03-28T18:25:42Z",
-            "created_at_i": 1743186342,
-            "objectID": "43508549",
-            "parent_id": 43507286,
-            "story_id": 43507286,
-            "story_title": "How Kerala got rich",
-            "story_url": "https://aeon.co/essays/how-did-kerala-go-from-poor-to-prosperous-among-indias-states",
-            "updated_at": "2025-03-29T01:58:02Z"
+            "_tags": ["comment", "author_ochiba", "story_43535943"],
+            "author": "ochiba",
+            "comment_text": "There are niche use cases where the former (work for days to weeks offline) are useful and even critical - like certain field service use cases. Surviving glitches in network connectivity is useful for mainstream&#x2F;consumer applications for users in general, especially those on mobile.\u003Cp\u003EIn my experience, it can affect the architecture and performance in a significant way. If a client can go offline for an arbitrary period of time, doing a delta sync when they come back online is more tricky, since we need to sync a specific range of operation history (and this needs to be adjusted for specific scope&#x2F;permissions that the client has access to). If you scale up a system to thousands or millions of clients, having them all do arbitrary range queries doesn&#x27;t scale well. For this reason I&#x27;ve seen sync engines simply force a client to do a complete re-sync if it &quot;falls behind&quot; with deltas for too long (e.g. more than a day or so.) Maintaining an operation log that is set up and indexed for querying arbitrary ranges of operations (for a specific scope of data) works well.",
+            "created_at": "2025-03-31T20:11:20Z",
+            "created_at_i": 1743451880,
+            "objectID": "43539338",
+            "parent_id": 43537889,
+            "story_id": 43535943,
+            "story_title": "Turso SQLite Offline Sync Public Beta",
+            "story_url": "https://turso.tech/blog/turso-offline-sync-public-beta",
+            "updated_at": "2025-03-31T21:52:32Z"
         },
         {
             "_highlightResult": {
                 "author": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "jhanschoo"
+                    "value": "andrewfromx"
                 },
                 "comment_text": {
                     "fullyHighlighted": false,
                     "matchLevel": "full",
                     "matchedWords": ["mobile"],
-                    "value": "&gt; Hundreds of thousands of people migrated to the Persian Gulf states like Saudi Arabia, Kuwait, the United Arab Emirates, Bahrain and Qatar to work in construction, retail and services, sectors that saw a massive investment boom following the two oil shocks of 1973 and 1979.\u003Cp\u003E&gt; The demand for skilled workers increased as the Gulf economies diversified from oil-based jobs to finance and business services. While offering jobs in the millions, the migration also had a series of broad effects back home on occupational diversification, skill accumulation, changing gender roles, consumption, economic and social \u003Cem\u003Emobili\u003C/em\u003Ety, and demographic transitions.\u003Cp\u003EIt looks like there they were employed across the value chain and the peninsula, some (many?) of which I do not think typically practices modern-day slavery."
+                    "value": "are your \u003Cem\u003Emobile\u003C/em\u003E apps real native or using something like react native/flutter?"
                 },
                 "story_title": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "How Kerala got rich"
-                },
-                "story_url": {
-                    "matchLevel": "none",
-                    "matchedWords": [],
-                    "value": "https://aeon.co/essays/how-did-kerala-go-from-poor-to-prosperous-among-indias-states"
+                    "value": "I am developing this social media platform as a solo founder"
                 }
             },
-            "_tags": ["comment", "author_jhanschoo", "story_43507286"],
-            "author": "jhanschoo",
-            "children": [43509447],
-            "comment_text": "&gt; Hundreds of thousands of people migrated to the Persian Gulf states like Saudi Arabia, Kuwait, the United Arab Emirates, Bahrain and Qatar to work in construction, retail and services, sectors that saw a massive investment boom following the two oil shocks of 1973 and 1979.\u003Cp\u003E&gt; The demand for skilled workers increased as the Gulf economies diversified from oil-based jobs to finance and business services. While offering jobs in the millions, the migration also had a series of broad effects back home on occupational diversification, skill accumulation, changing gender roles, consumption, economic and social mobility, and demographic transitions.\u003Cp\u003EIt looks like there they were employed across the value chain and the peninsula, some (many?) of which I do not think typically practices modern-day slavery.",
-            "created_at": "2025-03-28T17:51:18Z",
-            "created_at_i": 1743184278,
-            "objectID": "43508207",
-            "parent_id": 43507934,
-            "story_id": 43507286,
-            "story_title": "How Kerala got rich",
-            "story_url": "https://aeon.co/essays/how-did-kerala-go-from-poor-to-prosperous-among-indias-states",
-            "updated_at": "2025-03-29T00:10:49Z"
+            "_tags": ["comment", "author_andrewfromx", "story_43539091"],
+            "author": "andrewfromx",
+            "children": [43539525],
+            "comment_text": "are your mobile apps real native or using something like react native&#x2F;flutter?",
+            "created_at": "2025-03-31T20:02:49Z",
+            "created_at_i": 1743451369,
+            "objectID": "43539233",
+            "parent_id": 43539091,
+            "story_id": 43539091,
+            "story_title": "I am developing this social media platform as a solo founder",
+            "updated_at": "2025-03-31T20:25:48Z"
         },
         {
             "_highlightResult": {
                 "author": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "ben_w"
+                    "value": "nosioptar"
                 },
                 "comment_text": {
                     "fullyHighlighted": false,
                     "matchLevel": "full",
                     "matchedWords": ["mobile"],
-                    "value": "To an extent.\u003Cp\u003EAs I understand it, Russia hasn't been able to actually \u003Ci\u003Ecall\u003C/i\u003E it a &quot;war&quot; domestically, they did burn through prisoners rather than trained forces until they ran out of people willing to believe the chances of surviving to enjoy early release, and Russian forces have been only partially rather than fully \u003Cem\u003Emobili\u003C/em\u003Esed with their conscripts mostly kept back from the front line for a while now due to domestic concerns."
+                    "value": "I can't scroll on Firefox \u003Cem\u003Emobile\u003C/em\u003E, moves and anything below are not visible. I can't tell if I have limited moves (if so, would prefer an option to get unlimited) or if it's just counting my moves.\u003Cp\u003EI wish I could kill the sound.\u003Cp\u003EOtherwise, everything seems to work."
                 },
                 "story_title": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "Despite Ukraine war, Europe imported even more Russian gas last year"
+                    "value": "Show HN: I made a little puzzle game about a rogue chess knight"
                 },
                 "story_url": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "https://e360.yale.edu/digest/europe-russia-ukraine-war-natural-gas-2024"
+                    "value": "https://knightride.rakhim.org/"
                 }
             },
-            "_tags": ["comment", "author_ben_w", "story_43505700"],
-            "author": "ben_w",
-            "comment_text": "To an extent.\u003Cp\u003EAs I understand it, Russia hasn&#x27;t been able to actually \u003Ci\u003Ecall\u003C/i\u003E it a &quot;war&quot; domestically, they did burn through prisoners rather than trained forces until they ran out of people willing to believe the chances of surviving to enjoy early release, and Russian forces have been only partially rather than fully mobilised with their conscripts mostly kept back from the front line for a while now due to domestic concerns.",
-            "created_at": "2025-03-28T17:44:32Z",
-            "created_at_i": 1743183872,
-            "objectID": "43508138",
-            "parent_id": 43506860,
-            "story_id": 43505700,
-            "story_title": "Despite Ukraine war, Europe imported even more Russian gas last year",
-            "story_url": "https://e360.yale.edu/digest/europe-russia-ukraine-war-natural-gas-2024",
-            "updated_at": "2025-03-28T18:39:19Z"
+            "_tags": ["comment", "author_nosioptar", "story_43515622"],
+            "author": "nosioptar",
+            "comment_text": "I can&#x27;t scroll on Firefox mobile, moves and anything below are not visible. I can&#x27;t tell if I have limited moves (if so, would prefer an option to get unlimited) or if it&#x27;s just counting my moves.\u003Cp\u003EI wish I could kill the sound.\u003Cp\u003EOtherwise, everything seems to work.",
+            "created_at": "2025-03-31T19:40:39Z",
+            "created_at_i": 1743450039,
+            "objectID": "43538970",
+            "parent_id": 43515622,
+            "story_id": 43515622,
+            "story_title": "Show HN: I made a little puzzle game about a rogue chess knight",
+            "story_url": "https://knightride.rakhim.org/",
+            "updated_at": "2025-03-31T23:08:49Z"
         },
         {
             "_highlightResult": {
                 "author": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "troupo"
+                    "value": "whycome"
                 },
                 "comment_text": {
                     "fullyHighlighted": false,
                     "matchLevel": "full",
                     "matchedWords": ["mobile"],
-                    "value": "&gt; It surely has on 80% of a \u003Cem\u003Emobile\u003C/em\u003E platform,\u003Cp\u003EAnd which platform brings in more money?\u003Cp\u003E&gt; and on a small handset from this little japanese games company.\u003Cp\u003EAnd not on PS, not on XBox, not on PC (that is, no first-party support)."
+                    "value": "Are we entering the F1 stage of baseball and other sports? I bet there’s room for optimization with gloves and shoes and uniforms. I’m surprised teams haven’t made use of \u003Cem\u003Emobile\u003C/em\u003E recovery units when visiting away teams (instead of hotels). And there’s still gotta be ways to work around fatigue related to travel and time zone changes. I’m still surprised how basic and limited home team locker rooms can be. There are probably cool tech and social/psych solutions."
                 },
                 "story_title": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "Apple needs a Snow Sequoia"
+                    "value": "MLB says Yankees’ new “torpedo bats” are legal and likely coming"
                 },
                 "story_url": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "https://reviews.ofb.biz/safari/article/1300.html"
+                    "value": "https://thelibertyline.com/2025/03/30/yankees-new-torpedo-bat/"
                 }
             },
-            "_tags": ["comment", "author_troupo", "story_43498984"],
-            "author": "troupo",
-            "comment_text": "&gt; It surely has on 80% of a mobile platform,\u003Cp\u003EAnd which platform brings in more money?\u003Cp\u003E&gt; and on a small handset from this little japanese games company.\u003Cp\u003EAnd not on PS, not on XBox, not on PC (that is, no first-party support).",
-            "created_at": "2025-03-28T14:08:39Z",
-            "created_at_i": 1743170919,
-            "objectID": "43505616",
-            "parent_id": 43504960,
-            "story_id": 43498984,
-            "story_title": "Apple needs a Snow Sequoia",
-            "story_url": "https://reviews.ofb.biz/safari/article/1300.html",
-            "updated_at": "2025-03-28T14:10:03Z"
+            "_tags": ["comment", "author_whycome", "story_43536146"],
+            "author": "whycome",
+            "children": [43539158, 43540718, 43539749],
+            "comment_text": "Are we entering the F1 stage of baseball and other sports? I bet there’s room for optimization with gloves and shoes and uniforms. I’m surprised teams haven’t made use of mobile recovery units when visiting away teams (instead of hotels). And there’s still gotta be ways to work around fatigue related to travel and time zone changes. I’m still surprised how basic and limited home team locker rooms can be. There are probably cool tech and social&#x2F;psych solutions.",
+            "created_at": "2025-03-31T19:34:18Z",
+            "created_at_i": 1743449658,
+            "objectID": "43538895",
+            "parent_id": 43536146,
+            "story_id": 43536146,
+            "story_title": "MLB says Yankees’ new “torpedo bats” are legal and likely coming",
+            "story_url": "https://thelibertyline.com/2025/03/30/yankees-new-torpedo-bat/",
+            "updated_at": "2025-04-01T03:41:18Z"
         },
         {
             "_highlightResult": {
                 "author": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "tonyedgecombe"
+                    "value": "dudefeliciano"
                 },
                 "comment_text": {
                     "fullyHighlighted": false,
                     "matchLevel": "full",
                     "matchedWords": ["mobile"],
-                    "value": "My \u003Cem\u003Emobile\u003C/em\u003E company (O2 in the UK) will route calls over WiFi if there is no \u003Cem\u003Emobile\u003C/em\u003E reception."
+                    "value": "The wealthy are not trying to maintain the status quo though, they are actively trying to dismantle the remnants of the social/welfare state. I would argue that it is exactly that social system that allowed them to become wealthy, and they want to hold and hoard the wealth, stifling economic \u003Cem\u003Emobili\u003C/em\u003Ety and increasing the divide. This is stupid though as it increases social tensions and IMO puts them even more at risk of losing their wealth.\u003Cp\u003EThe reactionary propaganda does come from the top. Case in point: Elons “X the everything app” and him promoting afd - one has to wonder why he cares so much about immigrants. The answer seems simple, if they are not the target, he is."
                 },
                 "story_title": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "iPhone users can now set WhatsApp as their default calling and texting app"
+                    "value": "Talkin’ about a Revolution"
                 },
                 "story_url": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "https://www.theverge.com/news/637489/iphone-whatsapp-default-calling-texting-app"
+                    "value": "https://drb.ie/articles/talkin-about-a-revolution/"
                 }
             },
-            "_tags": ["comment", "author_tonyedgecombe", "story_43503779"],
-            "author": "tonyedgecombe",
-            "children": [43506406],
-            "comment_text": "My mobile company (O2 in the UK) will route calls over WiFi if there is no mobile reception.",
-            "created_at": "2025-03-28T13:58:09Z",
-            "created_at_i": 1743170289,
-            "objectID": "43505504",
-            "parent_id": 43505422,
-            "story_id": 43503779,
-            "story_title": "iPhone users can now set WhatsApp as their default calling and texting app",
-            "story_url": "https://www.theverge.com/news/637489/iphone-whatsapp-default-calling-texting-app",
-            "updated_at": "2025-03-28T15:08:38Z"
+            "_tags": ["comment", "author_dudefeliciano", "story_43510656"],
+            "author": "dudefeliciano",
+            "comment_text": "The wealthy are not trying to maintain the status quo though, they are actively trying to dismantle the remnants of the social&#x2F;welfare state. I would argue that it is exactly that social system that allowed them to become wealthy, and they want to hold and hoard the wealth, stifling economic mobility and increasing the divide. This is stupid though as it increases social tensions and IMO puts them even more at risk of losing their wealth.\u003Cp\u003EThe reactionary propaganda does come from the top. Case in point: Elons “X the everything app” and him promoting afd - one has to wonder why he cares so much about immigrants. The answer seems simple, if they are not the target, he is.",
+            "created_at": "2025-03-31T19:26:55Z",
+            "created_at_i": 1743449215,
+            "objectID": "43538812",
+            "parent_id": 43537498,
+            "story_id": 43510656,
+            "story_title": "Talkin’ about a Revolution",
+            "story_url": "https://drb.ie/articles/talkin-about-a-revolution/",
+            "updated_at": "2025-03-31T19:31:04Z"
         },
         {
             "_highlightResult": {
                 "author": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "TuringNYC"
+                    "value": "rohan_"
                 },
                 "comment_text": {
                     "fullyHighlighted": false,
                     "matchLevel": "full",
                     "matchedWords": ["mobile"],
-                    "value": "&gt;&gt; (as someone who doesn't use an iphone or whatsapp) What's the purpose of this? Surely if you want to call a phone number you want to make a phone call?\u003Cp\u003EOutside of major cities in the US, \u003Cem\u003Emobile\u003C/em\u003E coverage can become spotty. However, most people have Wifi, so I almost always use WhatsApp Audio or Facetime Audio at home for this reason (when the other party supports it.)"
+                    "value": "supabase has the most schizoid brand. They should just embrace the fact that \u003Cem\u003Emobile\u003C/em\u003E devs don't want to do backend for their crud app rather than trying to be the &quot;everything backend&quot;.\u003Cp\u003Ewhy are they releasing a web component library when React Native doesn't even have a decent UI library? Like who are supabase's customers again??"
                 },
                 "story_title": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "iPhone users can now set WhatsApp as their default calling and texting app"
+                    "value": "Supabase UI Library"
                 },
                 "story_url": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "https://www.theverge.com/news/637489/iphone-whatsapp-default-calling-texting-app"
+                    "value": "https://supabase.com/ui"
                 }
             },
-            "_tags": ["comment", "author_TuringNYC", "story_43503779"],
-            "author": "TuringNYC",
-            "children": [43505504],
-            "comment_text": "&gt;&gt; (as someone who doesn&#x27;t use an iphone or whatsapp) What&#x27;s the purpose of this? Surely if you want to call a phone number you want to make a phone call?\u003Cp\u003EOutside of major cities in the US, mobile coverage can become spotty. However, most people have Wifi, so I almost always use WhatsApp Audio or Facetime Audio at home for this reason (when the other party supports it.)",
-            "created_at": "2025-03-28T13:50:38Z",
-            "created_at_i": 1743169838,
-            "objectID": "43505422",
-            "parent_id": 43504235,
-            "story_id": 43503779,
-            "story_title": "iPhone users can now set WhatsApp as their default calling and texting app",
-            "story_url": "https://www.theverge.com/news/637489/iphone-whatsapp-default-calling-texting-app",
-            "updated_at": "2025-03-28T14:12:31Z"
+            "_tags": ["comment", "author_rohan_", "story_43536116"],
+            "author": "rohan_",
+            "children": [43539785],
+            "comment_text": "supabase has the most schizoid brand. They should just embrace the fact that mobile devs don&#x27;t want to do backend for their crud app rather than trying to be the &quot;everything backend&quot;.\u003Cp\u003Ewhy are they releasing a web component library when React Native doesn&#x27;t even have a decent UI library? Like who are supabase&#x27;s customers again??",
+            "created_at": "2025-03-31T19:25:33Z",
+            "created_at_i": 1743449133,
+            "objectID": "43538780",
+            "parent_id": 43536116,
+            "story_id": 43536116,
+            "story_title": "Supabase UI Library",
+            "story_url": "https://supabase.com/ui",
+            "updated_at": "2025-04-01T02:59:18Z"
         },
         {
             "_highlightResult": {
                 "author": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "aftbit"
+                    "value": "kjreact"
                 },
                 "comment_text": {
                     "fullyHighlighted": false,
                     "matchLevel": "full",
                     "matchedWords": ["mobile"],
-                    "value": "With the very welcome changes to how Google stores location history, they will no longer be capable of answering geofence warrants. The cell carrier themselves (Verizon / T-\u003Cem\u003EMobile\u003C/em\u003E / BT / Orange etc) can still provide some tower logon information but I'm not sure if they are storing E911 GPS info."
+                    "value": "Thank you for the thoughtful response. I too have struggled with fighting these network effects. And I am disheartened to see so many parents who just blindly let their children play these harmful games. Then parents like us, who do see the negatives, feel forced to let our children play so that they don’t become ostracised from their social groups.\u003Cp\u003EFortnite is another excellent example of introducing gambling to minors with their sales of loot boxes, which the FTC has fined for $245M. Recently one of my children asked to play Genshin Impact because their classmates were all hooked on the game. I was firm in saying that I did not want my children to play gacha games which were designed to fool players into gambling on loot boxes and paying to win. Instead I tried to get them to switch to another game without these poisonous mechanics.\u003Cp\u003EI’ve always been hesitant to be too forceful in getting children off these bad game platforms because I didn’t want to be labeled as the bad parent who took away their fun and in turn causing issues for my children at school. But I think my new strategy is just to buy their friends games to play that I feel are more constructive such as Minecraft instead of playing freemium \u003Cem\u003Emobile\u003C/em\u003E games.\u003Cp\u003EI just hope more parents become aware of the negative and addictive aspects that these games pose to children. I strongly believe that one day we will look back at this industry and it will be compared to the tobacco industry and the harm it caused."
                 },
                 "story_title": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "I asked police to send me their public surveillance footage of my car"
+                    "value": "Raising Kids to Have an Analog Childhood in a Digital World"
                 },
                 "story_url": {
                     "matchLevel": "none",
                     "matchedWords": [],
-                    "value": "https://cardinalnews.org/2025/03/28/i-drove-300-miles-in-rural-virginia-then-asked-police-to-send-me-their-public-surveillance-footage-of-my-car-heres-what-i-learned/"
+                    "value": "https://www.joshuakennon.com/raising-kids-to-have-an-analogue-childhood-in-a-digital-world/"
                 }
             },
-            "_tags": ["comment", "author_aftbit", "story_43504413"],
-            "author": "aftbit",
-            "comment_text": "With the very welcome changes to how Google stores location history, they will no longer be capable of answering geofence warrants. The cell carrier themselves (Verizon &#x2F; T-Mobile &#x2F; BT &#x2F; Orange etc) can still provide some tower logon information but I&#x27;m not sure if they are storing E911 GPS info.",
-            "created_at": "2025-03-28T13:22:57Z",
-            "created_at_i": 1743168177,
-            "objectID": "43505147",
-            "parent_id": 43504878,
-            "story_id": 43504413,
-            "story_title": "I asked police to send me their public surveillance footage of my car",
-            "story_url": "https://cardinalnews.org/2025/03/28/i-drove-300-miles-in-rural-virginia-then-asked-police-to-send-me-their-public-surveillance-footage-of-my-car-heres-what-i-learned/",
-            "updated_at": "2025-03-28T16:35:32Z"
-        },
-        {
-            "_highlightResult": {
-                "author": {
-                    "matchLevel": "none",
-                    "matchedWords": [],
-                    "value": "thisissomething"
-                },
-                "comment_text": {
-                    "fullyHighlighted": false,
-                    "matchLevel": "full",
-                    "matchedWords": ["mobile"],
-                    "value": "It really depends on what you're trying to achieve.\u003Cp\u003EI was trying to prototype a system and created a one-pager describing the main features, objectives, and restrictions. This took me about 45 minutes.\u003Cp\u003EThen I feed it into Claude and asked to develop said system. It spent the next 15 minutes outputting file after file.\u003Cp\u003EThen I ran &quot;npm install&quot; followed by &quot;npm run&quot; and got a &quot;fully&quot; (API was mocked) functional, \u003Cem\u003Emobile\u003C/em\u003E-friendly, and well documented system in just an hour of my time.\u003Cp\u003EIt'd have taken me an entire day of work to reach the same point."
-                },
-                "story_title": {
-                    "matchLevel": "none",
-                    "matchedWords": [],
-                    "value": "I genuinely don't understand why some people are still bullish about LLMs"
-                },
-                "story_url": {
-                    "matchLevel": "none",
-                    "matchedWords": [],
-                    "value": "https://twitter.com/skdh/status/1905132853672784121"
-                }
-            },
-            "_tags": ["comment", "author_thisissomething", "story_43498338"],
-            "author": "thisissomething",
-            "comment_text": "It really depends on what you&#x27;re trying to achieve.\u003Cp\u003EI was trying to prototype a system and created a one-pager describing the main features, objectives, and restrictions. This took me about 45 minutes.\u003Cp\u003EThen I feed it into Claude and asked to develop said system. It spent the next 15 minutes outputting file after file.\u003Cp\u003EThen I ran &quot;npm install&quot; followed by &quot;npm run&quot; and got a &quot;fully&quot; (API was mocked) functional, mobile-friendly, and well documented system in just an hour of my time.\u003Cp\u003EIt&#x27;d have taken me an entire day of work to reach the same point.",
-            "created_at": "2025-03-28T13:22:43Z",
-            "created_at_i": 1743168163,
-            "objectID": "43505145",
-            "parent_id": 43499135,
-            "story_id": 43498338,
-            "story_title": "I genuinely don't understand why some people are still bullish about LLMs",
-            "story_url": "https://twitter.com/skdh/status/1905132853672784121",
-            "updated_at": "2025-03-28T13:28:02Z"
-        },
-        {
-            "_highlightResult": {
-                "author": {
-                    "matchLevel": "none",
-                    "matchedWords": [],
-                    "value": "tonyedgecombe"
-                },
-                "comment_text": {
-                    "fullyHighlighted": false,
-                    "matchLevel": "full",
-                    "matchedWords": ["mobile"],
-                    "value": "They don't need access to your device. The Police can use records from the \u003Cem\u003Emobile\u003C/em\u003E operators to track device movements."
-                },
-                "story_title": {
-                    "matchLevel": "none",
-                    "matchedWords": [],
-                    "value": "I asked police to send me their public surveillance footage of my car"
-                },
-                "story_url": {
-                    "matchLevel": "none",
-                    "matchedWords": [],
-                    "value": "https://cardinalnews.org/2025/03/28/i-drove-300-miles-in-rural-virginia-then-asked-police-to-send-me-their-public-surveillance-footage-of-my-car-heres-what-i-learned/"
-                }
-            },
-            "_tags": ["comment", "author_tonyedgecombe", "story_43504413"],
-            "author": "tonyedgecombe",
-            "children": [43505365],
-            "comment_text": "They don&#x27;t need access to your device. The Police can use records from the mobile operators to track device movements.",
-            "created_at": "2025-03-28T13:20:10Z",
-            "created_at_i": 1743168010,
-            "objectID": "43505110",
-            "parent_id": 43504932,
-            "story_id": 43504413,
-            "story_title": "I asked police to send me their public surveillance footage of my car",
-            "story_url": "https://cardinalnews.org/2025/03/28/i-drove-300-miles-in-rural-virginia-then-asked-police-to-send-me-their-public-surveillance-footage-of-my-car-heres-what-i-learned/",
-            "updated_at": "2025-03-28T20:06:46Z"
-        },
-        {
-            "_highlightResult": {
-                "author": {
-                    "matchLevel": "none",
-                    "matchedWords": [],
-                    "value": "pjmlp"
-                },
-                "comment_text": {
-                    "fullyHighlighted": false,
-                    "matchLevel": "full",
-                    "matchedWords": ["mobile"],
-                    "value": "&gt; As if Vulkan had relevance to graphics programming.\u003Cp\u003EIt surely has on 80% of a \u003Cem\u003Emobile\u003C/em\u003E platform, and on a small handset from this little japanese games company.\u003Cp\u003E&gt;  \ntroupo 3 hours ago | parent | context | flag | on: Apple needs a Snow Sequoia\u003Cp\u003E&gt; Metal isn't really on pair with Vulkan and DirectX in terms of relevance for graphics programming\u003Cp\u003EAs if Vulkan had relevance to graphics programming.\u003Cp\u003E&gt;  you don't need WSL on MacOS because, well, MacOS is already a *nix environment.\u003Cp\u003EAgree if everything one wants out of it is classical UNIX experience, that breaks down when having to work with containers and kubernetes locally."
-                },
-                "story_title": {
-                    "matchLevel": "none",
-                    "matchedWords": [],
-                    "value": "Apple needs a Snow Sequoia"
-                },
-                "story_url": {
-                    "matchLevel": "none",
-                    "matchedWords": [],
-                    "value": "https://reviews.ofb.biz/safari/article/1300.html"
-                }
-            },
-            "_tags": ["comment", "author_pjmlp", "story_43498984"],
-            "author": "pjmlp",
-            "children": [43505616],
-            "comment_text": "&gt; As if Vulkan had relevance to graphics programming.\u003Cp\u003EIt surely has on 80% of a mobile platform, and on a small handset from this little japanese games company.\u003Cp\u003E&gt;  \ntroupo 3 hours ago | parent | context | flag | on: Apple needs a Snow Sequoia\u003Cp\u003E&gt; Metal isn&#x27;t really on pair with Vulkan and DirectX in terms of relevance for graphics programming\u003Cp\u003EAs if Vulkan had relevance to graphics programming.\u003Cp\u003E&gt;  you don&#x27;t need WSL on MacOS because, well, MacOS is already a *nix environment.\u003Cp\u003EAgree if everything one wants out of it is classical UNIX experience, that breaks down when having to work with containers and kubernetes locally.",
-            "created_at": "2025-03-28T13:07:42Z",
-            "created_at_i": 1743167262,
-            "objectID": "43504960",
-            "parent_id": 43503415,
-            "story_id": 43498984,
-            "story_title": "Apple needs a Snow Sequoia",
-            "story_url": "https://reviews.ofb.biz/safari/article/1300.html",
-            "updated_at": "2025-03-28T14:09:51Z"
-        },
-        {
-            "_highlightResult": {
-                "author": {
-                    "matchLevel": "none",
-                    "matchedWords": [],
-                    "value": "HelloMcFly"
-                },
-                "comment_text": {
-                    "fullyHighlighted": false,
-                    "matchLevel": "full",
-                    "matchedWords": ["mobile"],
-                    "value": "I think of healthcare problems in America like a watershed: the issues are not the result of any one problem but a concentration of small, medium, and large problems that all drain into the same humongous river. Things that could happen (and let's just take more socialized medicine off the table since it will never happen):\u003Cp\u003E1. Increasing caps (funding) for advanced education\u003Cp\u003E2. Allowing Medicare to negotiate drug prices, it's preposterous that they cannot do this\u003Cp\u003E3. Increase price transparency at hospitals to enable some downward pressure on prices. This is much harder than it sounds, not that it's my problem to solve.\u003Cp\u003E4. Limit hospital system monopolies that given them too much leverage in price negotiation (though have to be careful not to give insurers too much negotiating power, delicate balance)\u003Cp\u003E5. Cap out of pocket expenses, though I'm not sure how.\u003Cp\u003E6. Standardize and simplify billing codes across the US, with more public visibility into them. Medical billing is currently an art, it should be a science.\u003Cp\u003E7. Offer loan forgiveness to medical practitioners that serve for 10 years post-advanced training in a low-healthcare access communities. For what it's worth, I'd also place income-to-debt ratio restrictions on doctors' eligibility for public service loan forgiveness as well.\u003Cp\u003E8. Sadly, if we won't let immigrant trainees stay and obtain citizenship in the US after training, we should stop allocating training spots to them.\u003Cp\u003E9. Increase use of \u003Cem\u003Emobile\u003C/em\u003E clinics and/or transportation services. This would almost necessarily need to be government funded.\u003Cp\u003E10. Reform malpractice insurance and litigation in a way that doesn't remove physician accountability but doesn't require such high overhead to be paid by everyone down the line.\u003Cp\u003EThe above would help, but I don't know how much."
-                },
-                "story_title": {
-                    "matchLevel": "none",
-                    "matchedWords": [],
-                    "value": "How the American Medical Association Screws Doctors"
-                },
-                "story_url": {
-                    "matchLevel": "none",
-                    "matchedWords": [],
-                    "value": "https://www.thebignewsletter.com/p/how-the-american-medical-association"
-                }
-            },
-            "_tags": ["comment", "author_HelloMcFly", "story_43494324"],
-            "author": "HelloMcFly",
-            "comment_text": "I think of healthcare problems in America like a watershed: the issues are not the result of any one problem but a concentration of small, medium, and large problems that all drain into the same humongous river. Things that could happen (and let&#x27;s just take more socialized medicine off the table since it will never happen):\u003Cp\u003E1. Increasing caps (funding) for advanced education\u003Cp\u003E2. Allowing Medicare to negotiate drug prices, it&#x27;s preposterous that they cannot do this\u003Cp\u003E3. Increase price transparency at hospitals to enable some downward pressure on prices. This is much harder than it sounds, not that it&#x27;s my problem to solve.\u003Cp\u003E4. Limit hospital system monopolies that given them too much leverage in price negotiation (though have to be careful not to give insurers too much negotiating power, delicate balance)\u003Cp\u003E5. Cap out of pocket expenses, though I&#x27;m not sure how.\u003Cp\u003E6. Standardize and simplify billing codes across the US, with more public visibility into them. Medical billing is currently an art, it should be a science.\u003Cp\u003E7. Offer loan forgiveness to medical practitioners that serve for 10 years post-advanced training in a low-healthcare access communities. For what it&#x27;s worth, I&#x27;d also place income-to-debt ratio restrictions on doctors&#x27; eligibility for public service loan forgiveness as well.\u003Cp\u003E8. Sadly, if we won&#x27;t let immigrant trainees stay and obtain citizenship in the US after training, we should stop allocating training spots to them.\u003Cp\u003E9. Increase use of mobile clinics and&#x2F;or transportation services. This would almost necessarily need to be government funded.\u003Cp\u003E10. Reform malpractice insurance and litigation in a way that doesn&#x27;t remove physician accountability but doesn&#x27;t require such high overhead to be paid by everyone down the line.\u003Cp\u003EThe above would help, but I don&#x27;t know how much.",
-            "created_at": "2025-03-28T12:58:49Z",
-            "created_at_i": 1743166729,
-            "objectID": "43504837",
-            "parent_id": 43499770,
-            "story_id": 43494324,
-            "story_title": "How the American Medical Association Screws Doctors",
-            "story_url": "https://www.thebignewsletter.com/p/how-the-american-medical-association",
-            "updated_at": "2025-03-28T15:27:04Z"
-        },
-        {
-            "_highlightResult": {
-                "author": {
-                    "matchLevel": "none",
-                    "matchedWords": [],
-                    "value": "sofixa"
-                },
-                "comment_text": {
-                    "fullyHighlighted": false,
-                    "matchLevel": "full",
-                    "matchedWords": ["mobile"],
-                    "value": "In some countries there are \u003Cem\u003Emobile\u003C/em\u003E plans with &quot;free WhatsApp/Facebook/etc&quot;, but limited or paid regular calls/messages/data."
-                },
-                "story_title": {
-                    "matchLevel": "none",
-                    "matchedWords": [],
-                    "value": "iPhone users can now set WhatsApp as their default calling and texting app"
-                },
-                "story_url": {
-                    "matchLevel": "none",
-                    "matchedWords": [],
-                    "value": "https://www.theverge.com/news/637489/iphone-whatsapp-default-calling-texting-app"
-                }
-            },
-            "_tags": ["comment", "author_sofixa", "story_43503779"],
-            "author": "sofixa",
-            "comment_text": "In some countries there are mobile plans with &quot;free WhatsApp&#x2F;Facebook&#x2F;etc&quot;, but limited or paid regular calls&#x2F;messages&#x2F;data.",
-            "created_at": "2025-03-28T11:57:47Z",
-            "created_at_i": 1743163067,
-            "objectID": "43504260",
-            "parent_id": 43504235,
-            "story_id": 43503779,
-            "story_title": "iPhone users can now set WhatsApp as their default calling and texting app",
-            "story_url": "https://www.theverge.com/news/637489/iphone-whatsapp-default-calling-texting-app",
-            "updated_at": "2025-03-28T19:09:33Z"
+            "_tags": ["comment", "author_kjreact", "story_43527019"],
+            "author": "kjreact",
+            "comment_text": "Thank you for the thoughtful response. I too have struggled with fighting these network effects. And I am disheartened to see so many parents who just blindly let their children play these harmful games. Then parents like us, who do see the negatives, feel forced to let our children play so that they don’t become ostracised from their social groups.\u003Cp\u003EFortnite is another excellent example of introducing gambling to minors with their sales of loot boxes, which the FTC has fined for $245M. Recently one of my children asked to play Genshin Impact because their classmates were all hooked on the game. I was firm in saying that I did not want my children to play gacha games which were designed to fool players into gambling on loot boxes and paying to win. Instead I tried to get them to switch to another game without these poisonous mechanics.\u003Cp\u003EI’ve always been hesitant to be too forceful in getting children off these bad game platforms because I didn’t want to be labeled as the bad parent who took away their fun and in turn causing issues for my children at school. But I think my new strategy is just to buy their friends games to play that I feel are more constructive such as Minecraft instead of playing freemium mobile games.\u003Cp\u003EI just hope more parents become aware of the negative and addictive aspects that these games pose to children. I strongly believe that one day we will look back at this industry and it will be compared to the tobacco industry and the harm it caused.",
+            "created_at": "2025-03-31T19:11:53Z",
+            "created_at_i": 1743448313,
+            "objectID": "43538618",
+            "parent_id": 43537907,
+            "story_id": 43527019,
+            "story_title": "Raising Kids to Have an Analog Childhood in a Digital World",
+            "story_url": "https://www.joshuakennon.com/raising-kids-to-have-an-analogue-childhood-in-a-digital-world/",
+            "updated_at": "2025-03-31T19:15:17Z"
         }
     ],
     "hitsPerPage": 20,
-    "nbHits": 331639,
+    "nbHits": 332154,
     "nbPages": 50,
     "page": 0,
     "params": "query=mobile&advancedSyntax=true&analyticsTags=backend",
-    "processingTimeMS": 4,
+    "processingTimeMS": 9,
     "processingTimingsMS": {
         "_request": {
-            "roundTrip": 14
+            "roundTrip": 15
         },
         "afterFetch": {
             "format": {
+                "highlighting": 1,
                 "total": 1
-            }
-        },
-        "fetch": {
-            "query": 2,
+            },
+            "merge": {
+                "total": 3
+            },
             "total": 3
         },
-        "total": 4
+        "fetch": {
+            "query": 3,
+            "total": 4
+        },
+        "total": 9
     },
     "query": "mobile",
-    "serverTimeMS": 6
+    "serverTimeMS": 11
 }

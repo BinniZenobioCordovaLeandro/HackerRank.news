@@ -56,27 +56,50 @@ export const useArticles = () => {
         );
     }, []);
 
-    useEffect(() => {
-        fetchArticles();
-    }, [fetchArticles]);
+    const fetchFavorites = useCallback(async () => {
+        const savedFavorites = await Storage.getItem(STORAGE_ID.favoriteIdsSet);
+        if (savedFavorites)
+            setFavoriteArticleIds(new Set(JSON.parse(savedFavorites)));
+    }, []);
 
     useEffect(() => {
-        if (deletedArticleIds.size > 0) {
+        fetchFavorites();
+        fetchArticles();
+    }, [fetchArticles, fetchFavorites]);
+
+    useEffect(() => {
+        if (deletedArticleIds.size > 0 && articles.length > 0) {
             Storage.setItem(
                 STORAGE_ID.deletedIdsSet,
                 JSON.stringify([...deletedArticleIds])
             );
-            const deletedArticles = JSON.stringify(
-                articles.filter((article) =>
-                    deletedArticleIds.has(article.objectID)
-                )
+            const deletedArticles = articles.filter((article) =>
+                deletedArticleIds.has(article.objectID)
             );
-            Storage.setItem(STORAGE_ID.deletedArticles, deletedArticles);
+            const updateDeletedArticles = async () => {
+                const lastDeletedArticles = await Storage.getItem(
+                    STORAGE_ID.deletedArticles
+                );
+                if (lastDeletedArticles)
+                    Storage.setItem(
+                        STORAGE_ID.deletedArticles,
+                        JSON.stringify([
+                            ...(JSON.parse(lastDeletedArticles) as Article[]),
+                            ...deletedArticles,
+                        ])
+                    );
+                else
+                    Storage.setItem(
+                        STORAGE_ID.deletedArticles,
+                        JSON.stringify(deletedArticles)
+                    );
+            };
+            updateDeletedArticles();
         }
     }, [deletedArticleIds, articles]);
 
     useEffect(() => {
-        if (favoriteArticleIds.size > 0) {
+        if (favoriteArticleIds.size > 0 && articles.length > 0) {
             Storage.setItem(
                 STORAGE_ID.favoriteIdsSet,
                 JSON.stringify([...favoriteArticleIds])

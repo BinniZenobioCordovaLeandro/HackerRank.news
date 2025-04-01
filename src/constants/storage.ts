@@ -3,6 +3,8 @@ type StorageIdType = {
     deletedArticles: string;
     favoriteIdsSet: string;
     favoriteArticles: string;
+    favoriteCategories: string;
+    notificationToken: string;
 };
 
 export const STORAGE_ID: StorageIdType = {
@@ -10,4 +12,6 @@ export const STORAGE_ID: StorageIdType = {
     deletedArticles: "deletedArticles",
     favoriteIdsSet: "favoriteIdsSet",
     favoriteArticles: "favoriteArticles",
+    favoriteCategories: "favoriteCategories",
+    notificationToken: "notificationToken",
 };

@@ -1,6 +1,6 @@
 import {render} from "@testing-library/react-native";
 import React from "react";
-import AppBar from "./AppBar";
+import {AppBar} from "./AppBar";
 
 jest.mock("@react-navigation/native", () => ({
     useNavigation: jest.fn(() => ({

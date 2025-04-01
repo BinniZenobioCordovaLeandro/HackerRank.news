@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Android",
+        "image": "https://cdn-icons-png.flaticon.com/512/174/174836.png"
+    },
+    {
+        "name": "iOS",
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freeiconspng.com%2Fimg%2F4078&psig=AOvVaw3unRtK0VAc61YAovSUj3rt&ust=1743561217364000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMClxenltYwDFQAAAAAdAAAAABAZ"
+    },
+    {
+        "name": "JavaScript",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+    },
+    {
+        "name": "Python",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
+    },
+    {
+        "name": "Java",
+        "image": "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg"
+    },
+    {
+        "name": "C++",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"
+    },
+    {
+        "name": "Ruby",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg"
+    },
+    {
+        "name": "PHP",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"
+    },
+    {
+        "name": "Swift",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Swift_logo.svg"
+    },
+    {
+        "name": "Go",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg"
+    },
+    {
+        "name": "Rust",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Rust_programming_language_black_logo.svg"
+    }
+]

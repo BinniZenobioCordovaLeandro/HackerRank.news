@@ -9,12 +9,18 @@ import {styles} from "./Button.styles";
 
 export type ButtonProps = RNButtonProps;
 
-export const Button = ({onPress, title}: ButtonProps) => {
-    const {text: color, background: backgroundColor} = theme();
+export const Button = ({title, onPress, disabled, ...props}: ButtonProps) => {
+    const {background: color, accent: backgroundColor} = theme();
     return (
         <TouchableOpacity
-            style={[styles.container, {backgroundColor}]}
-            onPress={onPress}
+            {...props}
+            style={[
+                styles.container,
+                {backgroundColor},
+                disabled && styles.disabled,
+            ]}
+            onPress={disabled ? undefined : onPress}
+            disabled={disabled}
         >
             <Text style={[styles.text, {color}]}>{title}</Text>
         </TouchableOpacity>

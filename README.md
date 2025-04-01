@@ -67,6 +67,8 @@ try it locally using the command
 pnpm run eas-preview
 ```
 
+`note`: first install EXPO GO from PlayStore/AppStore then scan the QR
+
 ## Continuous Integration and Continuous Deployment (CI/CD)
 Each push to the main branch will trigger a build in EAS.
 The build will be deployed to the preview environment.
@@ -103,6 +105,38 @@ npx uri-scheme open hackerrank.news://index --ios
 npx uri-scheme open preview.hackerrank.news://index --ios
 npx uri-scheme open dev.hackerrank.news://index --ios
 ```
+
+# Push Notifications
+I added push notifications to the app using expo-notifications.
+
+You can use the following TOOL to send push notifications to the app
+https://expo.dev/notifications
+
+with the required values, as example
+
+`token`: ExponentPushToken[ZVTyFpJdsVdUNROGenHpyv]
+`title`: Article Title, `Is Expo launching dev to the moon?`
+`body`: Article Body, `Recently, Expo announced the launch of dev to the moon.`
+`data`: {"url": "https://knightride.rakhim.org/"}
+
+# Background Task
+I added a background task to check for new articles every 15 minutes.
+It uses the expo-task-manager and expo-notifications to send a notification to the user when a new article is available according to the user category preferences.
+The background task is registered in the app and it will run when the app is in the background and the device is connected to the internet.
+
+## Hot to test background TASKS
+1. Open the **Instruments** app. The Instruments app can be searched through Spotlight (`⌘ + Space`) or opened from:  
+   `/Applications/Xcode.app/Contents/Applications/Instruments.app`
+2. Select **Time Profiler**.
+3. Select your **device/simulator** and pick the **Expo Go** app.
+4. Press the **Record** button in the top left corner.
+5. Navigate to the **Document Menu** and select:  
+   **Simulate Background Fetch - Expo Go**.
+
+# Notification Handler
+I added a notification handler to handle the notification when the user clicks on it.
+It uses the expo-notifications to handle the notification and redirect the user to the web view screen to show the article content.
+
 
 ---
 # INTERNAL NOTES
@@ -152,3 +186,15 @@ https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree
 - [*] Add screen to list favorite articles
 - [*] Add screen to list deleted articles
 - [*] Add Custom expo tab bar to navigate through articles, favorites and deleted articles
+
+# Mon Mar 31, Push Notifications
+- [*] Add push notifications to the app using expo-notifications
+- [*] I added an alert to redirect the user to the settings screen to allow push notifications when is not granted
+- [*] Add an Onboarding screen to ask user preferences
+- [*] Save the notification token in localStorage
+- [*] Add a BACKGROUND TASK to check for new articles
+- [*] Sent notification from the background task using expo notifications service
+- [*] when open the notification REDIRECT to the WEB-VIEW screen tho show the article content
+
+# Tue Apr 01, Deep Linking
+Let's take a coffee and present the app to the client 🚀🚀🚀

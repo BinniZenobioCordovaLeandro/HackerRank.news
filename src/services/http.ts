@@ -17,6 +17,11 @@ type Http = {
         url: string,
         headers?: Record<string, string>
     ) => Promise<NestedRecord>;
+    post: (
+        url: string,
+        body: Record<string, unknown> | Record<string, unknown>[],
+        headers?: Record<string, string>
+    ) => Promise<NestedRecord>;
 };
 
 export const http: Http = {
@@ -38,6 +43,22 @@ export const http: Http = {
         }
         const data = await res.json();
         setCache(key, data);
+        return data;
+    },
+    post: async (url, body, headers = {}): Promise<NestedRecord> => {
+        const options: FetchRequestInit = {
+            method: "POST",
+            headers: {
+                ...baseHeaders,
+                ...headers,
+            } as HeadersInit,
+            body: JSON.stringify(body),
+        };
+        const res = await fetch(url, options);
+        if (res.status < 200 || res.status >= 300) {
+            throw new Error();
+        }
+        const data = await res.json();
         return data;
     },
 };

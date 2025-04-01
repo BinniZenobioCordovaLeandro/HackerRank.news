@@ -1,4 +1,4 @@
-import AppBar from "@/components/AppBar/AppBar";
+import {AppBar} from "@/components/AppBar/AppBar";
 import {Text} from "@/components/Text/Text";
 import {STRINGS} from "@/constants/strings";
 import {styles} from "@/styles";
