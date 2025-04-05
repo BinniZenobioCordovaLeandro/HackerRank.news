@@ -1,7 +1,7 @@
 import type {ExpoConfig} from "@expo/config-types";
 
 const EAS_SLUG = "hackerrank-news";
-const EAS_PROJECT_ID = "8cf16453-f2e5-46c5-ac59-95b08123ab53"; // TODO: Replace with GITHUB ENV, this is a temporary project ID in my BinniCordova Account
+const EAS_PROJECT_ID = process.env.EAS_PROJECT_ID;
 
 const VERSION = "0.0.1";
 const VERSION_CODE = 1;
@@ -51,7 +51,7 @@ export default ({config}: {config: ExpoConfig}): ExpoConfig => ({
     },
     updates: {
         fallbackToCacheTimeout: 0,
-        url: "https://u.expo.dev/8cf16453-f2e5-46c5-ac59-95b08123ab53",
+        url: `https://u.expo.dev/${EAS_PROJECT_ID}`,
         enabled: true,
     },
     assetBundlePatterns: ["**/*"],

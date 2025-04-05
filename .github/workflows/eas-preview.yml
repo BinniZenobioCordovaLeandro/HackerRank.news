@@ -3,6 +3,11 @@ name: EAS Preview App
 on:
   pull_request:
 
+permissions: write-all
+
+env:
+  EAS_PROJECT_ID: ${{ secrets.EAS_PROJECT_ID }}
+
 jobs:
   preview:
     runs-on: ubuntu-latest
@@ -20,8 +25,7 @@ jobs:
         uses: expo/expo-github-action@v8
         with:
           eas-version: latest
-          token: o_YlM3D47YGN2NChi-VQssSWIMCMoN3wT0m0rZao # TODO: TEMPORAL_HACKERRANK_NEWS_APP - Temporary token on my BinniCordova Account
-          # token: ${{ secrets.EXPO_TOKEN }}
+          token: ${{ secrets.EXPO_TOKEN }}
 
       - name: 📦 Install dependencies
         run: yarn install
