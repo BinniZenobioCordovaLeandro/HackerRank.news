@@ -43,7 +43,7 @@ export default ({config}: {config: ExpoConfig}): ExpoConfig => ({
     version: VERSION,
     orientation: "portrait",
     icon: "./assets/icon.png",
-    newArchEnabled: true,
+    newArchEnabled: false,
     splash: {
         image: "./assets/splash.png",
         resizeMode: "contain",
@@ -59,6 +59,14 @@ export default ({config}: {config: ExpoConfig}): ExpoConfig => ({
         supportsTablet: true,
         bundleIdentifier: getUniqueIdentifier(),
         version: VERSION,
+        infoPlist: {
+            UIBackgroundModes: ["fetch", "processing"],
+            BGTaskSchedulerPermittedIdentifiers: [
+                "com.transistorsoft.fetch",
+                "com.hackernews.fetch-articles",
+                "com.hackernews.fetch-articles-CLONE",
+            ],
+        },
     },
     android: {
         adaptiveIcon: {
@@ -98,5 +106,6 @@ export default ({config}: {config: ExpoConfig}): ExpoConfig => ({
                 enableBackgroundRemoteNotifications: true,
             },
         ],
+        "react-native-background-fetch",
     ],
 });

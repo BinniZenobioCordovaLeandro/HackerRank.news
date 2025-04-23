@@ -29,6 +29,15 @@ const tabsLayout = () => {
                 >
                     <TabButton icon="trash-can">Deleted</TabButton>
                 </TabTrigger>
+                <TabTrigger
+                    name="settings"
+                    href={PATHS.SETTINGS as string}
+                    asChild
+                >
+                    <TabButton icon="timer-settings-outline">
+                        Settings
+                    </TabButton>
+                </TabTrigger>
             </TabList>
         </Tabs>
     );
