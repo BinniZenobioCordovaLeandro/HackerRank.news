@@ -14,9 +14,6 @@ dependencies:
   expo:
     specifier: ~52.0.31
     version: 52.0.41(@babel/core@7.26.10)(@babel/preset-env@7.26.9)(@expo/metro-runtime@4.0.1)(react-native-webview@13.12.5)(react-native@0.76.7)(react@18.3.1)
-  expo-background-fetch:
-    specifier: ~13.0.5
-    version: 13.0.5(expo@52.0.41)(react-native@0.76.7)
   expo-constants:
     specifier: ~17.0.8
     version: 17.0.8(expo@52.0.41)(react-native@0.76.7)
@@ -47,6 +44,9 @@ dependencies:
   react-native:
     specifier: 0.76.7
     version: 0.76.7(@babel/core@7.26.10)(@babel/preset-env@7.26.9)(@types/react@18.3.20)(react@18.3.1)
+  react-native-background-fetch:
+    specifier: ^4.2.7
+    version: 4.2.7
   react-native-gesture-handler:
     specifier: ~2.20.2
     version: 2.20.2(react-native@0.76.7)(react@18.3.1)
@@ -5925,17 +5925,6 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /expo-background-fetch@13.0.5(expo@52.0.41)(react-native@0.76.7):
-    resolution: {integrity: sha512-rLRM+rYDRT0fA0Oaet5ibJK3nKVRkfdjXjISHxjUvIE4ktD9pE+UjAPPdjTXZ5CkNb3JyNNhQGJEGpdJC2HLKw==}
-    peerDependencies:
-      expo: '*'
-    dependencies:
-      expo: 52.0.41(@babel/core@7.26.10)(@babel/preset-env@7.26.9)(@expo/metro-runtime@4.0.1)(react-native-webview@13.12.5)(react-native@0.76.7)(react@18.3.1)
-      expo-task-manager: 12.0.5(expo@52.0.41)(react-native@0.76.7)
-    transitivePeerDependencies:
-      - react-native
-    dev: false
-
   /expo-constants@17.0.8(expo@52.0.41)(react-native@0.76.7):
     resolution: {integrity: sha512-XfWRyQAf1yUNgWZ1TnE8pFBMqGmFP5Gb+SFSgszxDdOoheB/NI5D4p7q86kI2fvGyfTrxAe+D+74nZkfsGvUlg==}
     peerDependencies:
@@ -9047,6 +9036,10 @@ packages:
 
   /react-is@18.3.1:
     resolution: {integrity: sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg==}
+
+  /react-native-background-fetch@4.2.7:
+    resolution: {integrity: sha512-lR8MmQRjd7MV9KBSOsyxFRW7jeCjNOSvsT4PECwZv54iZZtxUkRjH8Kbr6SGiSPK1AmYM6TCdRBEt2I9FDZJEg==}
+    dev: false
 
   /react-native-fit-image@1.5.5:
     resolution: {integrity: sha512-Wl3Vq2DQzxgsWKuW4USfck9zS7YzhvLNPpkwUUCF90bL32e1a0zOVQ3WsJILJOwzmPdHfzZmWasiiAUNBkhNkg==}
