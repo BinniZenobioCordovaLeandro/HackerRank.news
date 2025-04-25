@@ -13,7 +13,9 @@
             "build",
             "coverage",
             ".rnstorybook/storybook.requires.ts",
-            ".expo"
+            ".expo",
+            "./android",
+            "./ios"
         ]
     },
     "formatter": {

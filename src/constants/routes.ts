@@ -4,7 +4,8 @@ type Routes =
     | "WEB"
     | "ARTICLES"
     | "FAVORITES"
-    | "DELETED";
+    | "DELETED"
+    | "SETTINGS";
 
 type PathsProps = Record<Routes, string | ((...args: string[]) => string)>;
 
@@ -16,4 +17,5 @@ export const PATHS: PathsProps = {
     ARTICLES: "/(articles)",
     FAVORITES: "/favorites",
     DELETED: "/deleted",
+    SETTINGS: "/settings",
 };

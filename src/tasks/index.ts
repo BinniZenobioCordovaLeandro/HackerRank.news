@@ -1,19 +1,19 @@
 import {API_URL} from "@/constants/env";
 import {STORAGE_ID} from "@/constants/storage";
 import {STRINGS} from "@/constants/strings";
+import {TASK_STATE} from "@/hooks/useBackgroundFetch";
 import type {Article} from "@/models/article";
 import {getArticlesMatchs} from "@/utils/matcher";
 import {scheduleLocalNotification} from "@/utils/notification";
 import {Storage} from "@/utils/storage";
-import * as BackgroundFetch from "expo-background-fetch";
 import {fetch} from "expo/fetch";
 
-export const fetchArticlesTask = async () => {
+export const fetchArticlesTask = async (): Promise<TASK_STATE> => {
     try {
         const response = await fetch(API_URL);
         const {hits}: {hits: Article[]} = await response.json();
         if (!hits) {
-            return BackgroundFetch.BackgroundFetchResult.NoData;
+            return TASK_STATE.NO_DATA;
         }
         const favoriteCategories = await Storage.getItem(
             STORAGE_ID.favoriteCategories
@@ -23,11 +23,9 @@ export const fetchArticlesTask = async () => {
             let filteredHits = hits;
             filteredHits = getArticlesMatchs(hits, categories);
             if (filteredHits.length === 0) {
-                return BackgroundFetch.BackgroundFetchResult.NoData;
+                return TASK_STATE.NO_DATA;
             }
 
-            const token = await Storage.getItem(STORAGE_ID.notificationToken);
-            if (!token) return BackgroundFetch.BackgroundFetchResult.Failed;
             for (const hit of filteredHits) {
                 await scheduleLocalNotification(
                     STRINGS.notification + hit.author,
@@ -37,10 +35,10 @@ export const fetchArticlesTask = async () => {
                     }
                 ).catch();
             }
-            return BackgroundFetch.BackgroundFetchResult.NewData;
+            return TASK_STATE.SUCCESS;
         }
-        return BackgroundFetch.BackgroundFetchResult.NoData;
+        return TASK_STATE.NO_DATA;
     } catch (error) {
-        return BackgroundFetch.BackgroundFetchResult.Failed;
+        return TASK_STATE.ERROR;
     }
 };
